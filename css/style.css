@@ -1,3 +1,4 @@
+/*las imagenes de las columnas estan el el z-index: 0*/
 #logo_superpuesto{
     display: flex; 
     justify-content: center;/*horizontal */
@@ -40,7 +41,10 @@
     /*desplazar la imagen en cierta áerea*/
     background-position: 70%, 25%;
     /* extender el largo de las columnas */
+    /* opacity: 0.5;
+    z-index: 5; */
     height: calc(100vh);
+
     /* width: 25%; */
 }
 #columna_2{
