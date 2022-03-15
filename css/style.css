@@ -1,0 +1,157 @@
+#logo_superpuesto{
+    display: flex; 
+    justify-content: center;/*horizontal */
+    align-items: center;/*vertical*/
+    z-index: 1; 
+    position: absolute;
+    height: 100%;
+    /* align-content: center !important; */
+}
+#logo_superpuesto>img{
+    /* top: 50%; */
+    width: 65%;
+    height: 40%;
+}
+/* #inicio_superpuesto>p{
+    text-align: center;
+    letter-spacing: 3px;
+    font-family: 'ACaslonPro-Bold'; 
+} */
+#btn_conocenos{
+    z-index: 1;
+    align-self: center;/*alinear elementos dentro de un d-flex*/
+    width: 50%;
+}
+#detalle_contenido{
+    z-index: -1;
+}
+#detalle_contenido p{
+    font-family: 'ACaslonPro-SemiBoldItalic';
+    color: white;
+}
+/* extender el largo de las columnas  */
+#flex_row{
+    height: calc(100vh);
+}
+#columna_1{
+    background-image: url("/kuchati/images/pexels-alena-darmel-7641842.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*desplazar la imagen en cierta áerea*/
+    background-position: 70%, 25%;
+    /* extender el largo de las columnas */
+    height: calc(100vh);
+    /* width: 25%; */
+}
+#columna_2{
+    background-image: url("/kuchati/images/kitchen.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*desplazar la imagen en cierta áerea*/
+    background-position: 70%, 25%;
+    flex: 25%;
+    /* extender el largo de las columnas */
+    height: calc(100vh);
+    /* width: 25%; */
+}
+#columna_3{
+    background-image: url("/kuchati/images/pexels-tyler-tornberg-1587274.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*desplazar la imagen en cierta áerea*/
+    background-position: 70%, 25%;
+    /* extender el largo de las columnas */
+    height: calc(100vh);
+    /* width: 25%; */
+}
+#columna_4{
+    background-image: url("/kuchati/images/pexels-fauxels-3184465.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*desplazar la imagen en cierta áerea*/
+    background-position: 55%, center;
+    /* extender el largo de las columnas */
+    height: calc(100vh);
+    /* width: 25%; */
+}
+/* logo barra de navegacion*/
+img{
+    
+    height: 50%; 
+    width: 100%;  
+}
+p{
+    text-align: center;
+    font-family: 'ACaslonPro-Regular';
+    font-size: large;
+    color: white;
+}
+
+#columna_contacto>P{
+    text-align: center;
+    letter-spacing: 3px;
+    font-family: 'ACaslonPro-Regular';  
+}
+
+#columna_solicita>P{
+    text-align: left;
+    letter-spacing: 3px;
+    font-size: large;
+    font-family: 'ACaslonPro-Regular';
+}
+
+#semi_bold_i{
+    font-family: 'ACaslonPro-SemiBoldItalic';
+}
+
+.carousel-item{
+    height: 220px;
+}
+.carousel-item h3{
+    text-align: center;
+    font-family: 'ACaslonPro-SemiBold';
+    font-size: large;
+    color: #919082;
+}
+.carousel-item p{
+    text-align: center;
+    font-family: 'ACaslonPro-Semibold';
+    font-size: medium;
+    color: black;
+}
+
+
+
+#guiones::before{
+   content: "──────── ";
+   font-size: medium; 
+   letter-spacing: 0px;
+}
+/* #linea_redes{
+    height: 10px;
+} */
+
+@font-face {
+    font-family: 'ACaslonPro-Bold';
+    src: url('./fonts/ACaslonPro-Bold.otf');
+}
+@font-face {
+    font-family: 'ACaslonPro-SemiBold';
+    src: url('./fonts/ACaslonPro-Semibold.otf');
+}
+@font-face {
+    font-family: ACaslonPro-Regular;
+    src: url('./fonts/ACaslonPro-Regular.otf');
+}
+@font-face {
+    font-family: 'ACaslonPro-Italic';
+    src: url('./fonts/ACaslonPro-Italic.otf');
+}
+@font-face {
+    font-family: 'ACaslonPro-SemiBoldItalic';
+    src: url('./fonts/ACaslonPro-SemiboldItalic.otf');
+}
+@font-face {
+    font-family: 'ACaslonPro-BoldItalic';
+    src: url('./fonts/ACaslonPro-BoldItalic.otf');
+}
