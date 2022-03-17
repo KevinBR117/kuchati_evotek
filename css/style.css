@@ -4,60 +4,121 @@
     justify-content: center;/*horizontal */
     align-items: center;/*vertical*/
     z-index: 1; 
-    position: absolute;
-    height: 100%;
-    /* align-content: center !important; */
+    position: fixed;
 }
 #logo_superpuesto>img{
-    /* top: 50%; */
     width: 65%;
     height: 40%;
-}
-/* #inicio_superpuesto>p{
-    text-align: center;
-    letter-spacing: 3px;
-    font-family: 'ACaslonPro-Bold'; 
-} */
-#btn_conocenos{
-    z-index: 1;
-    align-self: center;/*alinear elementos dentro de un d-flex*/
-    width: 50%;
-}
-#detalle_contenido{
-    z-index: -1;
-}
-#detalle_contenido p{
-    font-family: 'ACaslonPro-SemiBoldItalic';
-    color: white;
-}
-/* extender el largo de las columnas  */
-#flex_row{
-    height: calc(100vh);
 }
 #columna_1{
     background-image: url("/kuchati/images/pexels-alena-darmel-7641842.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
     /*desplazar la imagen en cierta áerea*/
     background-position: 70%, 25%;
     /* extender el largo de las columnas */
-    /* opacity: 0.5;
-    z-index: 5; */
-    height: calc(100vh);
-
-    /* width: 25%; */
+    /* height: calc(100vh); */
 }
+#columna_1:hover::before{
+    content: '';
+    position: absolute; 
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    /* background-image: none; */
+    background-color: rgba(0, 0, 0, 0.5);
+}
+#columna_1:hover #etiqueta_inicio{
+    z-index: -1;
+}
+#btn_conocenos{
+    align-self: center;/*alinear elementos dentro de un d-flex*/
+    text-align: center;
+    letter-spacing: 2px;
+    background-color: #919082;
+    border-color: #919082;
+    width: 60%;
+    height: 50%;
+    z-index: 1 !important;
+    font-size: 14px;
+}
+#detalle_contenido{
+    z-index: -1;
+}
+.semiboldi_menu{
+    font-family: 'ACaslonPro-SemiBoldItalic';
+    color: white;
+    text-align: end;
+}
+#btn_prestamo{
+    align-self: center;/*alinear elementos dentro de un d-flex*/
+    text-align: center;
+    letter-spacing: 2px;
+    background-color: #919082;
+    border-color: #919082;
+    width: 75%;
+    height: 30% !important;
+    z-index: 1 !important;
+}
+#btn_prestamo p{
+    font-size: 14px;
+    line-height: 20px;
+}
+#detalle_contenido_1{
+    z-index: -1;
+}
+.rotar_etiqueta{
+    z-index: 1;
+    transform: rotate(-90deg);
+    font-size: xx-large;
+    letter-spacing: 3px;
+}
+
 #columna_2{
     background-image: url("/kuchati/images/kitchen.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
     /*desplazar la imagen en cierta áerea*/
     background-position: 70%, 25%;
-    flex: 25%;
+    /* flex: 25%; */
     /* extender el largo de las columnas */
-    height: calc(100vh);
+    /* height: calc(100vh); */
     /* width: 25%; */
 }
+#columna_2:hover::before{
+    content: '';
+    position: absolute; 
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+#columna_2:hover #etiqueta_nosotros{
+    z-index: -1;
+} 
+#btn_acercaDe{
+    align-self: center;/*alinear elementos dentro de un d-flex*/
+    text-align: center;
+    letter-spacing: 2px;
+    background-color: #919082;
+    border-color: #919082;
+    width: 60%;
+    height: 50%;
+    z-index: 1 !important;
+    font-size: 14px;
+}
+#detalle_contenido_2{
+    z-index: -1;
+}
+#btn_acercaDe:hover ~ #detalle_contenido_2{
+    z-index: 1;
+}
+
+
 #columna_3{
     background-image: url("/kuchati/images/pexels-tyler-tornberg-1587274.jpg");
     background-repeat: no-repeat;
@@ -65,7 +126,7 @@
     /*desplazar la imagen en cierta áerea*/
     background-position: 70%, 25%;
     /* extender el largo de las columnas */
-    height: calc(100vh);
+   /*  height: calc(100vh); */
     /* width: 25%; */
 }
 #columna_4{
@@ -75,14 +136,14 @@
     /*desplazar la imagen en cierta áerea*/
     background-position: 55%, center;
     /* extender el largo de las columnas */
-    height: calc(100vh);
+   /*  height: calc(100vh); */
     /* width: 25%; */
 }
 /* logo barra de navegacion*/
 img{
     
-    height: 50%; 
-    width: 100%;  
+    height: 25%; 
+    width: 50%;  
 }
 p{
     text-align: center;
