@@ -16,7 +16,7 @@
     background-size: cover;
     position: relative;
     /*desplazar la imagen en cierta áerea*/
-    background-position: 70%, 25%;/
+    background-position: 70%, 25%;
 }
 #columna_1:hover::before{
     content: '';
@@ -32,15 +32,21 @@
     z-index: -1;
 }
 #btn_conocenos{
-    align-self: center;/*alinear elementos dentro de un d-flex*/
-    text-align: center;
-    letter-spacing: 2px;
-    background-color: #919082;
-    border-color: #919082;
+    
     width: 60%;
     height: 50%;
+    
+}
+.btn_estilo{
+    align-self: center !important;/*alinear elementos dentro de un d-flex*/
+    text-align: center !important;
+    letter-spacing: 2px;
+    color: white !important;
+    background-color: #919082 !important;
+    border-color: #919082 !important;
     z-index: 1 !important;
-    font-size: 14px;
+    font-size: large !important;
+    font-family: 'ACaslonPro-Bold' !important;
 }
 #detalle_contenido{
     z-index: -1;
@@ -58,6 +64,7 @@
     font-family: 'ACaslonPro-SemiBoldItalic';
     color: white;
     text-align: end;
+    font-size: x-large;
 }
 #btn_prestamo{
     align-self: center;/*alinear elementos dentro de un d-flex*/
@@ -66,12 +73,12 @@
     background-color: #919082;
     border-color: #919082;
     width: 75%;
-    height: 30% !important;
+    height: auto !important;
     z-index: 1 !important;
 }
 #btn_prestamo p{
-    font-size: 14px;
-    line-height: 20px;
+    font-size: large !important;
+    line-height: 25px !important;
 }
 #detalle_contenido_1{
     z-index: -1;
@@ -185,10 +192,14 @@
     letter-spacing: 2px;
     background-color: #919082;
     border-color: #919082;
-    width: 60%;
-    height: 50%;
+    width: 65%;
+    height: auto !important;
     z-index: 1 !important;
     font-size: 14px;
+}
+#btn_servicios p{
+    font-size: large !important;
+    line-height: 25px !important; 
 }
 #detalle_contenido_4{
     z-index: -1;
@@ -218,7 +229,8 @@ p{
 #columna_contacto>P{
     text-align: center;
     letter-spacing: 3px;
-    font-family: 'ACaslonPro-Regular';  
+    font-family: 'ACaslonPro-Regular';
+    font-size: x-large; 
 }
 
 #columna_solicita>P{
@@ -259,7 +271,6 @@ h3 p{
    letter-spacing: 0px;
 }
 
-
 @font-face {
     font-family: 'ACaslonPro-Bold';
     src: url('./fonts/ACaslonPro-Bold.otf');
@@ -284,3 +295,116 @@ h3 p{
     font-family: 'ACaslonPro-BoldItalic';
     src: url('./fonts/ACaslonPro-BoldItalic.otf');
 }
+/* pagina conocenos/servicios */
+.seccion{
+    font-family: 'ACaslonPro-SemiBoldItalic';
+    font-size: x-large;
+    color: #919082;
+    align-self: end; 
+    letter-spacing: 2px; 
+}
+
+.semiboldi{
+    font-size: x-large;
+    font-family: 'ACaslonPro-SemiBoldItalic';
+    color: black;
+}
+#kuchati::before{
+    content: "KÜCHATI";
+    font-size: xx-large; 
+    letter-spacing: 3px;
+    font-family: 'ACaslonPro-Bold';
+    color: black
+ }
+.bold{
+    font-size: x-large;
+    font-family: 'ACaslonPro-bold';
+    color: black;
+}
+.regular{
+    font-size: x-large;
+    font-family: 'ACaslonPro-Regular';
+    color: black;
+}
+#mexicanas::after{
+    content: 'MEXICANAS';
+    font-size: x-large;
+    letter-spacing: 3px;
+    font-family: 'ACaslonPro-Bold';
+    -moz-border-radius: 100%;
+    -webkit-border-radius: 100%;
+    border-radius: 100%;
+    width: 300px;
+    height: 100px;
+    border-color: white !important;
+    border: 10px !important;
+    background: rgba(0, 0, 0, 0.5);
+}
+.numero::after{
+    content: '25';
+    font-size: xx-large;
+    letter-spacing: 3px;
+    font-family: 'ACaslonPro-Bold';
+}
+.socio{
+   background-color: #919082;
+
+}
+.socio:hover{
+    /* background-image: none; */
+    background-image: url('icons/conocenos/socios_edit.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    /*desplazar la imagen en cierta áerea*/
+    background-position: 70%, 25%;
+}
+.linea_1:hover{
+   background-color: #9190823f;
+   color: #919082;
+   border-left-color:gray;
+   border-left-style: solid;
+}
+.linea_2:hover{
+   background-color: #9190823f;
+   color: #919082;
+   border-left-color:gray;
+   border-left-style: solid;
+}
+.linea_3:hover{
+   background-color: #9190823f;
+   color: #919082;
+   border-left-color:gray;
+   border-left-style: solid;
+}
+.linea_4:hover{
+   background-color: #9190823f;
+   color: #919082;
+   border-left-color:gray;
+   border-left-style: solid;
+}
+.linea_5:hover{
+   background-color: #9190823f;
+   color: #919082;
+   border-left-color:gray;
+   border-left-style: solid;
+}
+
+/* .img_socio{
+    z-index:-1;
+    background-image: url('icons/conocenos/socios.png');
+}
+ */
+
+
+
+
+/* .eclipse{
+    width: 200px;
+    height: 100px;
+    background: red;
+    border-radius: 100px / 50px;
+    transform: rotate(-15deg);
+}
+
+

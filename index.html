@@ -15,7 +15,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
     <!-- font awesome -->
     <script src="https://kit.fontawesome.com/38964ce906.js" crossorigin="anonymous"></script>
-    
+
     <script type="text/javascript" src="javascript/jquery-3.6.0.min.js"></script>
     <script src="javascript/eventos.js"></script>
     <title>Kuchati</title>
@@ -57,27 +57,26 @@
 
 
         <!-- columna inicio -->
-        <div style="height: 100vh;" class="col-3 d-flex flex-column justify-content-between"
-            id="columna_1">
+        <div style="height: 100vh;" class="col-3 d-flex flex-column justify-content-between" id="columna_1">
 
             <div class="d-flex flex-column align-items-center mt-5">
 
-                <button onclick="location.href='conocenos.html'"; class="btn btn-dark rounded-pill" id="btn_conocenos">CONÓCENOS</button>
-
-                <div class="mt-3 ms-5" id="detalle_contenido">
+                
+                <a href="conocenos.html" class="btn rounded-pill mt-5 btn_estilo" id="btn_conocenos">CONÓCENOS</a>
+                <div class="mt-5 ms-5" id="detalle_contenido">
                     <p class="semiboldi_menu">Servicios</p>
                     <p class="semiboldi_menu">Socios</br>
                         Comerciales</p>
                 </div>
 
-                <button class="btn btn-dark rounded-pill mt-5" id="btn_prestamo">
+                <a href="" class="btn rounded-pill mt-5 btn_estilo" id="btn_prestamo">
                     <p class="mb-0">
                         ¿CÓMO USAR</br>
-                        MI PRÉSTAMO</br>
-                        O ARRENDAMIENTO?
+                        MI PRÉSTAMO O</br>
+                        ARRENDAMIENTO?
                     </p>
-                </button>
-                <div class="mt-3 ms-5" id="detalle_contenido_1">
+                </a>
+                <div class="mt-5 ms-5" id="detalle_contenido_1">
                     <p class="semiboldi_menu">¿Cómo <br />pertenecer<br />a Küchati</p>
                 </div>
             </div>
@@ -86,14 +85,13 @@
 
 
         <!-- columna nosotros-->
-        <div style="height: 100vh;" class="col-3 d-flex flex-column justify-content-between"
-            id="columna_2">
+        <div style="height: 100vh;" class="col-3 d-flex flex-column justify-content-between" id="columna_2">
 
             <div class="d-flex flex-column align-items-center mt-5">
 
-                <button class="btn btn-dark rounded-pill" id="btn_acercaDe">ACERCA DE KÜCHATI</button>
+                <a href="" class="btn rounded-pill mt-5 btn_estilo" id="btn_acercaDe">ACERCA DE KÜCHATI</a>
 
-                <div class="mt-3 ms-5" id="detalle_contenido_2">
+                <div class="mt-5 ms-5" id="detalle_contenido_2">
                     <p class="semiboldi_menu">Nuestra historia</p>
                     <p class="semiboldi_menu">Valores</p>
                     <p class="semiboldi_menu">Testimonios</p>
@@ -104,14 +102,13 @@
         </div>
 
         <!-- columna tramite-->
-        <div style="height: 100vh;" class="col-3 d-flex flex-column justify-content-between"
-            id="columna_3">
+        <div style="height: 100vh;" class="col-3 d-flex flex-column justify-content-between" id="columna_3">
 
             <div class="d-flex flex-column align-items-center mt-5">
 
-                <button class="btn btn-dark rounded-pill" id="btn_procesos">PROCESOS</button>
+                <a class="btn rounded-pill mt-5 btn_estilo" id="btn_procesos" href="">PROCESOS</a>
 
-                <div class="mt-3 ms-5" id="detalle_contenido_3">
+                <div class="mt-5 ms-5" id="detalle_contenido_3">
                     <p class="semiboldi_menu">Pasos a seguir</p>
                     <p class="semiboldi_menu">Documnetación</p>
                 </div>
@@ -121,23 +118,31 @@
         </div>
 
         <!-- columna servicios-->
-        <div style="height: 100vh;" class="col-3 d-flex flex-column justify-content-between"
-            id="columna_4">
+        <div style="height: 100vh;" class="col-3 d-flex flex-column justify-content-between" id="columna_4">
 
             <div class="d-flex flex-column align-items-center mt-5">
 
-                <button class="btn btn-dark rounded-pill" id="btn_servicios">PROCESOS</button>
+                <a class="btn rounded-pill mt-5 btn_estilo" id="btn_servicios" href="#">
 
-                <div class="mt-3 ms-5" id="detalle_contenido_4">
-                    <p class="semiboldi_menu">Arrendamiento<br>puro</p>
+                    <p class="mb-0">
+                        ARRENDAMIENTO</br>
+                        Y FINANCIAMIENTO
+                    </p>
+                </a>
+
+                <div class="mt-5 ms-5" id="detalle_contenido_4">
+                    <p class="semiboldi_menu">Arrendamiento puro</p>
                     <p class="semiboldi_menu">Arrendamiento</br>financiero</p>
+                    <p class="semiboldi_menu">Sale & Lease back</p>
+                    <p class="semiboldi_menu">Financiamiento</p>
                 </div>
             </div>
 
-            <p style="width: 2ch; border: 5px;border-color: black;" class="rotar_etiqueta ms-5" id="etiqueta_servicios">SERVICIOS</p>
+            <p style="width: 2ch; border: 5px;border-color: black;" class="rotar_etiqueta ms-5" id="etiqueta_servicios">
+                SERVICIOS</p>
         </div>
     </div>
-    
+
 
     <!-- linea contacto -->
     <div class="row bg-dark shadow p-5" id="linea_contacto">
@@ -251,7 +256,7 @@
                 <p id="semi_bold_i">powered by </p>
             </div>
             <div class="ms-2">
-                <img style ="width: auto;height: auto;" src="css/icons/inicio/entrnace.png" alt="">
+                <img style="width: auto;height: auto;" src="css/icons/inicio/entrnace.png" alt="">
             </div>
         </div>
 
