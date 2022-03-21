@@ -1,16 +1,21 @@
 /*las imagenes de las columnas estan el el z-index: 0*/
-#logo_superpuesto{
-    display: flex; 
-    justify-content: center;/*horizontal */
-    align-items: center;/*vertical*/
-    z-index: 1; 
+
+#logo_superpuesto {
+    display: flex;
+    justify-content: center;
+    /*horizontal */
+    align-items: center;
+    /*vertical*/
+    z-index: 1;
     position: fixed;
 }
-#logo_superpuesto>img{
+
+#logo_superpuesto>img {
     width: 65%;
     height: 40%;
 }
-#columna_1{
+
+#columna_1 {
     background-image: url("/kuchati/images/pexels-alena-darmel-7641842.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -18,9 +23,10 @@
     /*desplazar la imagen en cierta áerea*/
     background-position: 70%, 25%;
 }
-#columna_1:hover::before{
+
+#columna_1:hover::before {
     content: '';
-    position: absolute; 
+    position: absolute;
     top: 0;
     bottom: 0;
     left: 0;
@@ -28,46 +34,55 @@
     /* background-image: none; */
     background-color: rgba(0, 0, 0, 0.5);
 }
-#columna_1:hover #etiqueta_inicio{
+
+#columna_1:hover #etiqueta_inicio {
     z-index: -1;
 }
-#btn_conocenos{
-    
+
+#btn_conocenos {
     width: 60%;
     height: 50%;
-    
 }
-.btn_estilo{
-    align-self: center !important;/*alinear elementos dentro de un d-flex*/
+
+.btn_estilo {
+    align-self: center !important;
+    /*alinear elementos dentro de un d-flex*/
     text-align: center !important;
     letter-spacing: 2px;
     color: white !important;
-    background-color: #919082 !important;
-    border-color: #919082 !important;
+    background-color: #a5a96f !important;
+    border-color: #a5a96f !important;
     z-index: 1 !important;
     font-size: large !important;
-    font-family: 'ACaslonPro-Bold' !important;
+    font-family: '' !important;
 }
-#detalle_contenido{
+
+#detalle_contenido {
     z-index: -1;
 }
-#detalle_contenido_1{
+
+#detalle_contenido_1 {
     z-index: -1;
 }
-#btn_conocenos:hover ~ #detalle_contenido{
+
+#btn_conocenos:hover~#detalle_contenido {
     z-index: 1;
 }
-#btn_prestamo:hover ~ #detalle_contenido_1{
+
+#btn_prestamo:hover~#detalle_contenido_1 {
     z-index: 1;
 }
-.semiboldi_menu{
+
+.semiboldi_menu {
     font-family: 'ACaslonPro-SemiBoldItalic';
     color: white;
     text-align: end;
     font-size: x-large;
 }
-#btn_prestamo{
-    align-self: center;/*alinear elementos dentro de un d-flex*/
+
+#btn_prestamo {
+    align-self: center;
+    /*alinear elementos dentro de un d-flex*/
     text-align: center;
     letter-spacing: 2px;
     background-color: #919082;
@@ -76,21 +91,24 @@
     height: auto !important;
     z-index: 1 !important;
 }
-#btn_prestamo p{
+
+#btn_prestamo p {
     font-size: large !important;
     line-height: 25px !important;
 }
-#detalle_contenido_1{
+
+#detalle_contenido_1 {
     z-index: -1;
 }
-.rotar_etiqueta{
+
+.rotar_etiqueta {
     z-index: 1;
     transform: rotate(-90deg);
     font-size: xx-large;
     letter-spacing: 3px;
 }
 
-#columna_2{
+#columna_2 {
     background-image: url("/kuchati/images/kitchen.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -98,20 +116,24 @@
     /*desplazar la imagen en cierta áerea*/
     background-position: 70%, 25%;
 }
-#columna_2:hover::before{
+
+#columna_2:hover::before {
     content: '';
-    position: absolute; 
+    position: absolute;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
     background-color: rgba(0, 0, 0, 0.5);
 }
-#columna_2:hover #etiqueta_nosotros{
+
+#columna_2:hover #etiqueta_nosotros {
     z-index: -1;
-} 
-#btn_acercaDe{
-    align-self: center;/*alinear elementos dentro de un d-flex*/
+}
+
+#btn_acercaDe {
+    align-self: center;
+    /*alinear elementos dentro de un d-flex*/
     text-align: center;
     letter-spacing: 2px;
     background-color: #919082;
@@ -121,14 +143,16 @@
     z-index: 1 !important;
     font-size: 14px;
 }
-#detalle_contenido_2{
+
+#detalle_contenido_2 {
     z-index: -1;
 }
-#btn_acercaDe:hover ~ #detalle_contenido_2{
+
+#btn_acercaDe:hover~#detalle_contenido_2 {
     z-index: 1;
 }
 
-#columna_3{
+#columna_3 {
     background-image: url("/kuchati/images/pexels-tyler-tornberg-1587274.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -136,20 +160,24 @@
     /*desplazar la imagen en cierta áerea*/
     background-position: 70%, 25%;
 }
-#columna_3:hover::before{
+
+#columna_3:hover::before {
     content: '';
-    position: absolute; 
+    position: absolute;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
     background-color: rgba(0, 0, 0, 0.5);
 }
-#columna_3:hover #etiqueta_tramite{
+
+#columna_3:hover #etiqueta_tramite {
     z-index: -1;
-} 
-#btn_procesos{
-    align-self: center;/*alinear elementos dentro de un d-flex*/
+}
+
+#btn_procesos {
+    align-self: center;
+    /*alinear elementos dentro de un d-flex*/
     text-align: center;
     letter-spacing: 2px;
     background-color: #919082;
@@ -159,14 +187,16 @@
     z-index: 1 !important;
     font-size: 14px;
 }
-#detalle_contenido_3{
+
+#detalle_contenido_3 {
     z-index: -1;
 }
-#btn_procesos:hover ~ #detalle_contenido_3{
+
+#btn_procesos:hover~#detalle_contenido_3 {
     z-index: 1;
 }
 
-#columna_4{
+#columna_4 {
     background-image: url("/kuchati/images/pexels-fauxels-3184465.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -174,159 +204,176 @@
     /*desplazar la imagen en cierta áerea*/
     background-position: 55%, center;
 }
-#columna_4:hover::before{
+
+#columna_4:hover::before {
     content: '';
-    position: absolute; 
+    position: absolute;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
     background-color: rgba(0, 0, 0, 0.5);
 }
-#columna_4:hover #etiqueta_servicios{
+
+#columna_4:hover #etiqueta_servicios {
     z-index: -1;
-} 
-#btn_servicios{
-    align-self: center;/*alinear elementos dentro de un d-flex*/
+}
+
+#btn_servicios {
+    align-self: center;
+    /*alinear elementos dentro de un d-flex*/
     text-align: center;
     letter-spacing: 2px;
     background-color: #919082;
     border-color: #919082;
-    width: 65%;
-    height: auto !important;
+    width: auto;
+    height: auto;
     z-index: 1 !important;
-    font-size: 14px;
+    /*font-size: 14px; */
 }
-#btn_servicios p{
-    font-size: large !important;
-    line-height: 25px !important; 
+
+#btn_servicios p {
+    font-size: large;
+    line-height: 25px !important;
 }
-#detalle_contenido_4{
+
+#detalle_contenido_4 {
     z-index: -1;
 }
-#btn_servicios:hover ~ #detalle_contenido_4{
+
+#btn_servicios:hover~#detalle_contenido_4 {
     z-index: 1;
 }
 
 
-
-
-
-
 /* logo barra de navegacion*/
-img{
-    
-    height: 25%; 
-    width: 50%;  
+
+img {
+    height: 25%;
+    width: 50%;
 }
-p{
+
+p {
     text-align: center;
     font-family: 'ACaslonPro-Regular';
     font-size: large;
     color: white;
 }
 
-#columna_contacto>P{
+#columna_contacto>P {
     text-align: center;
     letter-spacing: 3px;
     font-family: 'ACaslonPro-Regular';
-    font-size: x-large; 
+    font-size: x-large;
 }
 
-#columna_solicita>P{
+#columna_solicita>P {
     text-align: left;
     letter-spacing: 3px;
     font-size: large;
     font-family: 'ACaslonPro-Regular';
 }
 
-#semi_bold_i{
+#semi_bold_i {
     font-family: 'ACaslonPro-SemiBoldItalic';
 }
-h3 p{
+
+h3 p {
     font-family: 'ACaslonPro-Bold';
 }
 
-.carousel-item{
+.carousel-item {
     height: 220px;
 }
-.carousel-item h3{
+
+.carousel-item h3 {
     text-align: center;
     font-family: 'ACaslonPro-SemiBold';
     font-size: large;
     color: #919082;
 }
-.carousel-item p{
+
+.carousel-item p {
     text-align: center;
     font-family: 'ACaslonPro-Semibold';
     font-size: medium;
     color: black;
 }
 
-
-
-#guiones::before{
-   content: "──────── ";
-   font-size: medium; 
-   letter-spacing: 0px;
+#guiones::before {
+    content: "──────── ";
+    font-size: medium;
+    letter-spacing: 0px;
 }
 
 @font-face {
     font-family: 'ACaslonPro-Bold';
     src: url('./fonts/ACaslonPro-Bold.otf');
 }
+
 @font-face {
     font-family: 'ACaslonPro-SemiBold';
     src: url('./fonts/ACaslonPro-Semibold.otf');
 }
+
 @font-face {
     font-family: ACaslonPro-Regular;
     src: url('./fonts/ACaslonPro-Regular.otf');
 }
+
 @font-face {
     font-family: 'ACaslonPro-Italic';
     src: url('./fonts/ACaslonPro-Italic.otf');
 }
+
 @font-face {
     font-family: 'ACaslonPro-SemiBoldItalic';
     src: url('./fonts/ACaslonPro-SemiboldItalic.otf');
 }
+
 @font-face {
     font-family: 'ACaslonPro-BoldItalic';
     src: url('./fonts/ACaslonPro-BoldItalic.otf');
 }
+
+
 /* pagina conocenos/servicios */
-.seccion{
+
+.seccion {
     font-family: 'ACaslonPro-SemiBoldItalic';
     font-size: x-large;
     color: #919082;
-    align-self: end; 
-    letter-spacing: 2px; 
+    align-self: end;
+    letter-spacing: 2px;
 }
 
-.semiboldi{
+.semiboldi {
     font-size: x-large;
     font-family: 'ACaslonPro-SemiBoldItalic';
     color: black;
 }
-#kuchati::before{
+
+#kuchati::before {
     content: "KÜCHATI";
-    font-size: xx-large; 
+    font-size: xx-large;
     letter-spacing: 3px;
     font-family: 'ACaslonPro-Bold';
     color: black
- }
-.bold{
+}
+
+.bold {
     font-size: x-large;
     font-family: 'ACaslonPro-bold';
     color: black;
 }
-.regular{
+
+.regular {
     font-size: x-large;
     font-family: 'ACaslonPro-Regular';
     color: black;
 }
-#mexicanas::after{
+
+#mexicanas::after {
     content: 'MEXICANAS';
     font-size: x-large;
     letter-spacing: 3px;
@@ -340,54 +387,60 @@ h3 p{
     border: 10px !important;
     background: rgba(0, 0, 0, 0.5);
 }
-.numero::after{
+
+.numero::after {
     content: '25';
     font-size: xx-large;
     letter-spacing: 3px;
     font-family: 'ACaslonPro-Bold';
 }
-.socio{
-   background-color: #919082;
 
+.socio {
+    background-color: #a5a96f;
 }
+
+
 .socio:hover{
-    /* background-image: none; */
+
     background-image: url('icons/conocenos/socios_edit.png');
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
     /*desplazar la imagen en cierta áerea*/
-    background-position: 70%, 25%;
+    background-position: 70%,25%;
+
 }
-.linea_1:hover{
-   background-color: #9190823f;
-   color: #919082;
-   border-left-color:gray;
-   border-left-style: solid;
+
+
+.linea_1:hover {
+    background-color: rgba(128, 128, 128, 0.089);
+    color: #a5a96f;
+    border-left-color: gray;
+    border-left-style: solid;
 }
-.linea_2:hover{
-   background-color: #9190823f;
-   color: #919082;
-   border-left-color:gray;
-   border-left-style: solid;
+.linea_2:hover {
+    background-color: rgba(128, 128, 128, 0.089);
+    color: #a5a96f;
+    border-left-color: gray;
+    border-left-style: solid;
 }
-.linea_3:hover{
-   background-color: #9190823f;
-   color: #919082;
-   border-left-color:gray;
-   border-left-style: solid;
+.linea_3:hover {
+    background-color: rgba(128, 128, 128, 0.089);
+    color: #a5a96f;
+    border-left-color: gray;
+    border-left-style: solid;
 }
-.linea_4:hover{
-   background-color: #9190823f;
-   color: #919082;
-   border-left-color:gray;
-   border-left-style: solid;
+.linea_4:hover {
+    background-color: rgba(128, 128, 128, 0.089);
+    color: #a5a96f;
+    border-left-color: gray;
+    border-left-style: solid;
 }
-.linea_5:hover{
-   background-color: #9190823f;
-   color: #919082;
-   border-left-color:gray;
-   border-left-style: solid;
+.linea_5:hover {
+    background-color: rgba(128, 128, 128, 0.089);
+    color: #a5a96f;
+    border-left-color: gray;
+    border-left-style: solid;
 }
 
 /* .img_socio{
@@ -396,9 +449,6 @@ h3 p{
 }
  */
 
-
-
-
 /* .eclipse{
     width: 200px;
     height: 100px;
@@ -406,5 +456,3 @@ h3 p{
     border-radius: 100px / 50px;
     transform: rotate(-15deg);
 }
-
-
