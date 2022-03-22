@@ -15,10 +15,34 @@
 }
 
 /* logo barra de navegacion*/
-img {
+/* img {
     height: 25%;
     width: 50%;
 }
+ */
+
+#sidebar{
+    z-index: 2;
+    position: fixed;
+    width: 40vh;
+    height: 100%;
+    background-color: #151719;
+    left: -40vh;
+    transition: all 150ms linear;
+}
+#sidebar ul li{
+    color: rgba(230, 230, 230, .9);
+    padding: 15px 10px;
+    text-align: left;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+#sidebar.active{
+    left: 0 !important;
+}
+
+
 
 @font-face {
     font-family: 'ACaslonPro-Bold';
