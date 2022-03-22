@@ -1,5 +1,4 @@
 /*las imagenes de las columnas estan el el z-index: 0*/
-
 #logo_superpuesto {
     display: flex;
     justify-content: center;
@@ -13,6 +12,72 @@
 #logo_superpuesto>img {
     width: 65%;
     height: 40%;
+}
+
+/* logo barra de navegacion*/
+img {
+    height: 25%;
+    width: 50%;
+}
+
+@font-face {
+    font-family: 'ACaslonPro-Bold';
+    src: url('./fonts/ACaslonPro-Bold.otf');
+}
+
+@font-face {
+    font-family: 'ACaslonPro-SemiBold';
+    src: url('./fonts/ACaslonPro-Semibold.otf');
+}
+
+@font-face {
+    font-family: ACaslonPro-Regular;
+    src: url('./fonts/ACaslonPro-Regular.otf');
+}
+
+@font-face {
+    font-family: 'ACaslonPro-Italic';
+    src: url('./fonts/ACaslonPro-Italic.otf');
+}
+
+@font-face {
+    font-family: 'ACaslonPro-SemiBoldItalic';
+    src: url('./fonts/ACaslonPro-SemiboldItalic.otf');
+}
+
+@font-face {
+    font-family: 'ACaslonPro-BoldItalic';
+    src: url('./fonts/ACaslonPro-BoldItalic.otf');
+}
+
+
+.btn_estilo {
+    align-self: center !important;
+    /*alinear elementos dentro de un d-flex*/
+    text-align: center !important;
+    letter-spacing: 2px;
+    color: white !important;
+    background-color: #a5a96f !important;
+    border-color: #a5a96f !important;
+    z-index: -1 !important;
+    font-size: large !important;
+    font-family: '' !important;
+}
+
+.semiboldi_menu {
+    font-family: 'ACaslonPro-SemiBoldItalic';
+    color: white;
+    text-align: end;
+    font-size: x-large;
+}
+
+.rotar_etiqueta {
+    font-family: ('ACaslonPro-Regular');
+    color: white;
+    z-index: 1;
+    transform: rotate(-90deg);
+    font-size: xx-large;
+    letter-spacing: 3px;
 }
 
 #columna_1 {
@@ -39,22 +104,27 @@
     z-index: -1;
 }
 
+#columna_1:hover #btn_conocenos{
+    z-index: 1 !important;
+}
+
+#columna_1:hover #btn_prestamo{
+    z-index: 1 !important;
+}
+
 #btn_conocenos {
     width: 60%;
     height: 50%;
 }
 
-.btn_estilo {
-    align-self: center !important;
-    /*alinear elementos dentro de un d-flex*/
-    text-align: center !important;
-    letter-spacing: 2px;
-    color: white !important;
-    background-color: #a5a96f !important;
-    border-color: #a5a96f !important;
-    z-index: 1 !important;
+#btn_prestamo {
+    width: 75%;
+    height: auto !important;
+}
+
+#btn_prestamo p {
     font-size: large !important;
-    font-family: '' !important;
+    line-height: 25px !important;
 }
 
 #detalle_contenido {
@@ -71,42 +141,7 @@
 
 #btn_prestamo:hover~#detalle_contenido_1 {
     z-index: 1;
-}
-
-.semiboldi_menu {
-    font-family: 'ACaslonPro-SemiBoldItalic';
-    color: white;
-    text-align: end;
-    font-size: x-large;
-}
-
-#btn_prestamo {
-    align-self: center;
-    /*alinear elementos dentro de un d-flex*/
-    text-align: center;
-    letter-spacing: 2px;
-    background-color: #919082;
-    border-color: #919082;
-    width: 75%;
-    height: auto !important;
-    z-index: 1 !important;
-}
-
-#btn_prestamo p {
-    font-size: large !important;
-    line-height: 25px !important;
-}
-
-#detalle_contenido_1 {
-    z-index: -1;
-}
-
-.rotar_etiqueta {
-    z-index: 1;
-    transform: rotate(-90deg);
-    font-size: xx-large;
-    letter-spacing: 3px;
-}
+}   
 
 #columna_2 {
     background-image: url("/kuchati/images/kitchen.jpeg");
@@ -130,18 +165,13 @@
 #columna_2:hover #etiqueta_nosotros {
     z-index: -1;
 }
+#columna_2:hover #btn_acercaDe{
+    z-index: 1 !important;
+}
 
 #btn_acercaDe {
-    align-self: center;
-    /*alinear elementos dentro de un d-flex*/
-    text-align: center;
-    letter-spacing: 2px;
-    background-color: #919082;
-    border-color: #919082;
     width: 60%;
     height: 50%;
-    z-index: 1 !important;
-    font-size: 14px;
 }
 
 #detalle_contenido_2 {
@@ -175,17 +205,13 @@
     z-index: -1;
 }
 
+#columna_3:hover #btn_procesos{
+    z-index: 1 !important;
+}
+
 #btn_procesos {
-    align-self: center;
-    /*alinear elementos dentro de un d-flex*/
-    text-align: center;
-    letter-spacing: 2px;
-    background-color: #919082;
-    border-color: #919082;
     width: 60%;
     height: 50%;
-    z-index: 1 !important;
-    font-size: 14px;
 }
 
 #detalle_contenido_3 {
@@ -219,22 +245,13 @@
     z-index: -1;
 }
 
-#btn_servicios {
-    align-self: center;
-    /*alinear elementos dentro de un d-flex*/
-    text-align: center;
-    letter-spacing: 2px;
-    background-color: #919082;
-    border-color: #919082;
-    width: auto;
-    height: auto;
+#columna_4:hover #btn_servicios{
     z-index: 1 !important;
-    /*font-size: 14px; */
 }
 
-#btn_servicios p {
-    font-size: large;
-    line-height: 25px !important;
+#btn_servicios {
+    width: auto;
+    height: auto;
 }
 
 #detalle_contenido_4 {
@@ -246,13 +263,8 @@
 }
 
 
-/* logo barra de navegacion*/
 
-img {
-    height: 25%;
-    width: 50%;
-}
-
+/* parrafos en general */
 p {
     text-align: center;
     font-family: 'ACaslonPro-Regular';
@@ -265,6 +277,7 @@ p {
     letter-spacing: 3px;
     font-family: 'ACaslonPro-Regular';
     font-size: x-large;
+    color: white;
 }
 
 #columna_solicita>P {
@@ -272,6 +285,7 @@ p {
     letter-spacing: 3px;
     font-size: large;
     font-family: 'ACaslonPro-Regular';
+    
 }
 
 #semi_bold_i {
@@ -306,35 +320,6 @@ h3 p {
     letter-spacing: 0px;
 }
 
-@font-face {
-    font-family: 'ACaslonPro-Bold';
-    src: url('./fonts/ACaslonPro-Bold.otf');
-}
-
-@font-face {
-    font-family: 'ACaslonPro-SemiBold';
-    src: url('./fonts/ACaslonPro-Semibold.otf');
-}
-
-@font-face {
-    font-family: ACaslonPro-Regular;
-    src: url('./fonts/ACaslonPro-Regular.otf');
-}
-
-@font-face {
-    font-family: 'ACaslonPro-Italic';
-    src: url('./fonts/ACaslonPro-Italic.otf');
-}
-
-@font-face {
-    font-family: 'ACaslonPro-SemiBoldItalic';
-    src: url('./fonts/ACaslonPro-SemiboldItalic.otf');
-}
-
-@font-face {
-    font-family: 'ACaslonPro-BoldItalic';
-    src: url('./fonts/ACaslonPro-BoldItalic.otf');
-}
 
 
 /* pagina conocenos/servicios */
@@ -399,7 +384,6 @@ h3 p {
     background-color: #a5a96f;
 }
 
-
 .socio:hover{
 
     background-image: url('icons/conocenos/socios_edit.png');
@@ -410,7 +394,6 @@ h3 p {
     background-position: 70%,25%;
 
 }
-
 
 .linea_1:hover {
     background-color: rgba(128, 128, 128, 0.089);
