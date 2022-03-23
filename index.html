@@ -14,15 +14,15 @@
     <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script> -->
     
     <!-- carousel -->
-    <!-- <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
     <!-- font awesome -->
-  <!--   <script src="https://kit.fontawesome.com/38964ce906.js" crossorigin="anonymous"></script> -->
+    <script src="https://kit.fontawesome.com/38964ce906.js" crossorigin="anonymous"></script>
     
     <script type="text/javascript" src="javascript/jquery-3.6.0.min.js"></script>
     
-    <title>Kuchati</title>
+    <title>Küchati</title>
 </head>
 
 <body class="container-fluid">
@@ -41,11 +41,12 @@
     <div id="sidebar" class="row">
 
         <ul class="mt-5 py-5">
-            <li class="semiboldi_menu">Conócenos</li>
-            <li>Usar mi Préstamo o Arrendamiento</li>
-            <li>Acerca de Küchati</li>
-            <li>Procesos</li>
-            <li>Arrendamiento y Financiamiento</li>
+            <li id="li_inicio">Inicio</li>
+            <li id="li_conocenos">Conócenos</li>
+            <li id="li_prestamo">Usar mi Préstamo o Arrendamiento</li>
+            <li id="li_acerca">Acerca de Küchati</li>
+            <li id="li_procesos">Procesos</li>
+            <li id="li_arrendamiento">Arrendamiento y Financiamiento</li>
 
         </ul>
 
@@ -54,7 +55,7 @@
     <script src="javascript/eventos.js"></script>
 
     <!-- contenedor principal -->
-    <div class="row bd-highlight" id="flex_row">
+    <div class="row bd-highlight mt-5 pt-1" id="flex_row">
 
         <!-- logotipo superpuesto -->
         <div class="container-fluid  mt-5 p-5" id="logo_superpuesto">
@@ -68,14 +69,14 @@
             <div class="d-flex flex-column align-items-center mt-5">
 
                 
-                <a href="conocenos.html" class="btn rounded-pill mt-5 btn_estilo" id="btn_conocenos">CONÓCENOS</a>
+                <a href="conocenos.html" class="btn rounded-pill btn_estilo" id="btn_conocenos">CONÓCENOS</a>
                 <div class="mt-5 ms-5" id="detalle_contenido">
                     <p class="semiboldi_menu">Servicios</p>
                     <p class="semiboldi_menu">Socios</br>
                         Comerciales</p>
                 </div>
 
-                <a href="" class="btn rounded-pill mt-5 btn_estilo" id="btn_prestamo">
+                <a href="" class="btn rounded-pill btn_estilo" id="btn_prestamo">
                     <p class="mb-0">
                         ¿CÓMO USAR</br>
                         MI PRÉSTAMO O</br>
@@ -95,7 +96,7 @@
 
             <div class="d-flex flex-column align-items-center mt-5">
 
-                <a href="" class="btn rounded-pill mt-5 btn_estilo" id="btn_acercaDe">ACERCA DE KÜCHATI</a>
+                <a href="" class="btn rounded-pill btn_estilo" id="btn_acercaDe">ACERCA DE KÜCHATI</a>
 
                 <div class="mt-5 ms-5" id="detalle_contenido_2">
                     <p class="semiboldi_menu">Nuestra historia</p>
@@ -104,7 +105,7 @@
                 </div>
             </div>
 
-            <p style="width: 2ch;" class="rotar_etiqueta ms-5" id="etiqueta_nosotros">NOSOTROS</p>
+            <p style="width: 2ch;" class="rotar_etiqueta ms-5 ps-5" id="etiqueta_nosotros">NOSOTROS</p>
         </div>
 
         <!-- columna tramite-->
@@ -112,7 +113,7 @@
 
             <div class="d-flex flex-column align-items-center mt-5">
 
-                <a class="btn rounded-pill mt-5 btn_estilo" id="btn_procesos" href="">PROCESOS</a>
+                <a class="btn rounded-pill btn_estilo" id="btn_procesos" href="">PROCESOS</a>
 
                 <div class="mt-5 ms-5" id="detalle_contenido_3">
                     <p class="semiboldi_menu">Pasos a seguir</p>
@@ -120,7 +121,7 @@
                 </div>
             </div>
 
-            <p style="width: 2ch;" class="rotar_etiqueta ms-5" id="etiqueta_tramite">TRÁMITE</p>
+            <p style="width: 2ch;" class="rotar_etiqueta ms-5 ps-5" id="etiqueta_tramite">TRÁMITE</p>
         </div>
 
         <!-- columna servicios-->
@@ -128,7 +129,7 @@
 
             <div class="d-flex flex-column align-items-center mt-5">
 
-                <a class="btn rounded-pill mt-5 btn_estilo" id="btn_servicios" href="#">
+                <a class="btn rounded-pill btn_estilo" id="btn_servicios" href="#">
 
                     <p class="mb-0">
                         ARRENDAMIENTO</br>
@@ -144,14 +145,14 @@
                 </div>
             </div>
 
-            <p style="width: 2ch; border: 5px;border-color: black;" class="rotar_etiqueta ms-5" id="etiqueta_servicios">
+            <p style="width: 2ch; border: 5px;border-color: black;" class="rotar_etiqueta ms-5 ps-5" id="etiqueta_servicios">
                 SERVICIOS</p>
         </div>
     </div>
 
 
     <!-- linea contacto -->
-    <div class="row bg-dark shadow p-5" id="linea_contacto">
+    <div class="row bg-dark shadow p-3" id="linea_contacto">
         <div class="col-2" id="columna_contacto">
             <br>
             <p>CONTACTO</p>
@@ -179,14 +180,14 @@
 
             <div class="carousel-inner p-5">
                 <div class="carousel-item active">
-                    <h3 id="semi_bold">LA TRANQUILIDAD FINANCIERA Y FISCAL QUE NECESITAS.</h3>
+                    <h3 id="">LA TRANQUILIDAD FINANCIERA Y FISCAL QUE NECESITAS.</h3>
                     <br><br>
                     <P>Te brindamos nuevas oportunidades de inversión con estratégias que</P>
                     <p>expandirán tu vision para que tu negocio crezca, con total confianza y seguridad.</p>
 
                 </div>
                 <div class="carousel-item">
-                    <h3 id="semi_bold">SOLUCIONES PARA TU NEGOCIO.</h3>
+                    <h3 id="">SOLUCIONES PARA TU NEGOCIO.</h3>
                     <br>
                     <p>- Arrendamiento puro</P>
                     <p>- Arrendamiento financiero</p>
@@ -194,7 +195,7 @@
                     <p>- Financiamiento</p>
                 </div>
                 <div class="carousel-item">
-                    <h3 id="semi_bold">¿ES PARA MI?</h3>
+                    <h3 id="">¿ES PARA MI?</h3>
                     <br><br>
                     <div class="row">
                         <div class="d-flex justify-content-between px-5">
@@ -227,8 +228,8 @@
     </div>
 
     <!-- linea redes -->
-    <div class="row shadow bg-dark p-5">
-        <div class="d-flex justify-content-center" align="center">
+    <div class="row shadow bg-dark p-3">
+        <div class="d-flex justify-content-center mt-3" align="center">
             <div>
                 <a style="color: white;" href="https://www.instagram.com">
                     <i class="fa-brands fa-instagram fa-2x"></i>
