@@ -18,42 +18,27 @@ btnToggle.addEventListener("click", function () {
 });
 
 /* botonoes sidebar */
-var itm_inicio = document.getElementById("li_inicio");
-var itm_contacto = document.getElementById("li_contacto");
-var itm_conocenos = document.getElementById("li_conocenos");
-console.log(itm_conocenos);
-var itm_prestamo = document.getElementById("li_prestamo");
-var itm_acerca = document.getElementById("li_acerca");
-var itm_procesos = document.getElementById("li_procesos");
-var itm_arrendamiento = document.getElementById("li_arrendamiento");
+var itm_inicio = document.getElementById("itm_inicio");
+var itm_nosotros = document.getElementById("itm_nosotoros");
+var itm_tramite = document.getElementById("itm_tramite");
+var itm_servicios = document.getElementById("itm_servicios");
+
 
 itm_inicio.addEventListener("click",function (){
-    window.location.href = "index.html"
+    window.location.href = "inicio.html"
 })
 
-itm_contacto.addEventListener("click", function(){
-    window.location.href = "contactanos.html"
+itm_nosotros.addEventListener("click", function(){
+    window.location.href = "nosotros.html"
 })
 
-itm_conocenos.addEventListener("click",function(){
+itm_tramite.addEventListener("click",function(){
     console.log("clicked")
-    window.location.href = "conocenos.html"
+    window.location.href = "tramite.html"
 })
 
-itm_prestamo.addEventListener("click", function () {
-    window.location.href = "prestamo.html"
-})
-
-itm_acerca.addEventListener("click", function(){
-    window.location.href = "acercaDe.html"
-})
-
-itm_procesos.addEventListener("click", function () {  
-    window.location.href = "procesos.html"
-})
-
-itm_arrendamiento.addEventListener("click", function(){
-    window.location.href = "arrendamiento.html"
+itm_servicios.addEventListener("click", function () {
+    window.location.href = "servicios.html"
 })
 
 
