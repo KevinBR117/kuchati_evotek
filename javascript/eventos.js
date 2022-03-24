@@ -9,7 +9,7 @@ $(document).ready(function () {
 });
 
 /* animacion para sidebar */
-console.log("data")
+
 var btnToggle = document.getElementById("bar");
 console.log(btnToggle);
 
@@ -19,6 +19,7 @@ btnToggle.addEventListener("click", function () {
 
 /* botonoes sidebar */
 var itm_inicio = document.getElementById("li_inicio");
+var itm_contacto = document.getElementById("li_contacto");
 var itm_conocenos = document.getElementById("li_conocenos");
 console.log(itm_conocenos);
 var itm_prestamo = document.getElementById("li_prestamo");
@@ -28,6 +29,10 @@ var itm_arrendamiento = document.getElementById("li_arrendamiento");
 
 itm_inicio.addEventListener("click",function (){
     window.location.href = "index.html"
+})
+
+itm_contacto.addEventListener("click", function(){
+    window.location.href = "contactanos.html"
 })
 
 itm_conocenos.addEventListener("click",function(){
