@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,6 +16,7 @@
     <script type="text/javascript" src="javascript/jquery-3.6.0.min.js"></script>
     <title>Contáctanos</title>
 </head>
+
 <body>
         <!-- barra de navegacion -->
         <div class="row bg-dark fixed-top" style="height: 10vh">
@@ -25,25 +27,55 @@
                     <img src="css/icons/inicio/logo_barra.png" id="btn_logo" style="width: 30vh; height: 10vh; cursor: pointer;";alt="Logotipo">
                 </span>
             </div>
-    
         </div>
-    
-        <!-- sidebar -->
-        <div id="sidebar" class="row">
-    
-            <ul class="mt-5 py-5">
-                <li id="li_inicio">Inicio</li>
-                <li id="li_contacto">Contáctanos</li>
-                <li id="li_conocenos">Conócenos</li>
-                <li id="li_prestamo">Usar mi Préstamo o Arrendamiento</li>
-                <li id="li_acerca">Acerca de Küchati</li>
-                <li id="li_procesos">Procesos</li>
-                <li id="li_arrendamiento">Arrendamiento y Financiamiento</li>
-            </ul>
-    
+
+        <div class="row">
+            <div class="col-md-6">
+                <label for="correo">Correo:</label>
+                <input class="form-control" type="email" name="correo" id="correo">
+            </div>
+            <div class="col-md-6">
+                <label for="monto">Monto solicitado:</label>
+                <input class="form-control" type="email" name="monto" id="monto">
+            </div>
         </div>
-    
-        <script src="javascript/eventos.js"></script>
-    
+
+        <div class="row">
+            <div class="col-md-6">
+                <label for="telefono">Telefono:</label>
+                <input class="form-control" type="tel" name="telefono" id="telefono">
+            </div>
+            <div class="col-md-6">
+                <label for="equipo">Equipo solicitado:</label>
+                <input class="form-control" type="email" name="equipo" id="equipo">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6">
+                <label for="mensaje">Mensaje:</label>
+                <textarea name="mensaje" id="mensaje" class="form-control">
+
+                </textarea>
+            </div>
+
+            <div class="col-md-6">
+                <div class="d-flex flex-column">
+                    <div>
+                        <label for="rfc">RFC:</label>
+                        <input type="text" name="rfc" id="rfc">
+                    </div>
+
+                    <div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="javascript/eventos.js"></script>
+
 </body>
+
 </html>
