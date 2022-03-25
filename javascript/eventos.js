@@ -22,7 +22,7 @@ var itm_logo = document.getElementById("btn_logo")
 
 /* botonoes sidebar */
 var itm_inicio = document.getElementById("itm_inicio");
-var itm_nosotros = document.getElementById("itm_nosotoros");
+var itm_nosotros = document.getElementById("itm_nosotros");
 var itm_tramite = document.getElementById("itm_tramite");
 var itm_servicios = document.getElementById("itm_servicios");
 console.log(itm_servicios)
