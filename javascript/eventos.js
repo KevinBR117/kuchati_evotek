@@ -11,7 +11,7 @@ $(document).ready(function () {
 /* animacion para sidebar */
 
 var btnToggle = document.getElementById("bar");
-console.log(btnToggle);
+/* console.log(btnToggle); */
 
 btnToggle.addEventListener("click", function () {
     document.getElementById("sidebar").classList.toggle("active")
@@ -25,11 +25,11 @@ var itm_inicio = document.getElementById("itm_inicio");
 var itm_nosotros = document.getElementById("itm_nosotoros");
 var itm_tramite = document.getElementById("itm_tramite");
 var itm_servicios = document.getElementById("itm_servicios");
+console.log(itm_servicios)
 
 itm_logo.addEventListener("click", function () { 
     window.location.href = "index.html"
 })
-
 
 itm_inicio.addEventListener("click",function (){
     window.location.href = "inicio.html"
@@ -44,7 +44,7 @@ itm_tramite.addEventListener("click",function(){
     window.location.href = "tramite.html"
 })
 
-itm_servicios.addEventListener("click", function () {
+itm_servicios.addEventListener("click", function(){
     console.log("boton servicios")
     window.location.href = "arrendamiento.html"
 })
