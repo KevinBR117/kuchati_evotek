@@ -22,43 +22,43 @@
     <main class="container">
         <div class="row">
             <div class="col-md-12">
-                <h1 class="text-uppercase text-center my-5">Contáctanos</h1>
+                <h1 class="text-uppercase text-center my-5 contactanos_header_estilo">Contáctanos</h1>
             </div>
         </div>
 
         <div class="row">
             <div class="col-md-6">
                 <div class="d-flex flex-column">
-                    <label for="nombre">Nombre:</label>
+                    <label class="label_estilo" for="nombre">Nombre:</label>
                     <div class="form-check">
                         <input type="checkbox">
-                        <label for="persona_fisica">Persona física</label>
+                        <label class="label_checkbox" for="persona_fisica">Persona física</label>
                     </div>
                     <div class="form-check">
                         <input type="checkbox">
-                        <label for="persona_moral">Persona moral</label>
+                        <label class="label_checkbox" for="persona_moral">Persona moral</label>
                     </div>
                 </div>
             </div>
 
             <div class="col-md-6">
-                <label for="servicio">Servicio:</label>
+                <label class="label_estilo" for="servicio">Servicio:</label>
                 <div class="d-flex justify-content-center gap-3 w-100">
                     <div class="form-check d-flex align-items-center gap-1">
                         <input type="checkbox">
-                        <label for="persona_fisica">Financiamiento</label>
+                        <label class="label_checkbox" for="persona_fisica">Financiamiento</label>
                     </div>
                     <div class="form-check d-flex align-items-center gap-1">
                         <input type="checkbox">
-                        <label for="persona_fisica">Arrendamiento</label>
+                        <label class="label_checkbox" for="persona_fisica">Arrendamiento</label>
                     </div>
                     <div class="form-check d-flex align-items-center gap-1">
                         <input type="checkbox">
-                        <label for="persona_fisica">Sell y lease back</label>
+                        <label class="label_checkbox" for="persona_fisica">Sell y lease back</label>
                     </div>
                     <div class="form-check d-flex align-items-center gap-1">
                         <input type="checkbox">
-                        <label for="persona_fisica">Otro</label>
+                        <label class="label_checkbox" for="persona_fisica">Otro</label>
                     </div>
                 </div>
             </div>
@@ -66,30 +66,30 @@
 
         <div class="row">
             <div class="col-md-6">
-                <label for="correo">Correo:</label>
-                <input class="form-control" type="email" name="correo" id="correo">
+                <label class="label_estilo" for="correo">Correo:</label>
+                <input class="input_estilo" type="email" name="correo" id="correo">
             </div>
             <div class="col-md-6">
-                <label for="monto">Monto solicitado:</label>
-                <input class="form-control" type="email" name="monto" id="monto">
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-md-6">
-                <label for="telefono">Telefono:</label>
-                <input class="form-control" type="tel" name="telefono" id="telefono">
-            </div>
-            <div class="col-md-6">
-                <label for="equipo">Equipo solicitado:</label>
-                <input class="form-control" type="email" name="equipo" id="equipo">
+                <label class="label_estilo" for="monto">Monto solicitado:</label>
+                <input class="input_estilo" type="email" name="monto" id="monto">
             </div>
         </div>
 
         <div class="row">
             <div class="col-md-6">
-                <label for="mensaje">Mensaje:</label>
-                <textarea name="mensaje" id="mensaje" class="form-control">
+                <label class="label_estilo" for="telefono">Telefono:</label>
+                <input class="input_estilo" type="tel" name="telefono" id="telefono">
+            </div>
+            <div class="col-md-6">
+                <label class="label_estilo" for="equipo">Equipo solicitado:</label>
+                <input class="input_estilo" type="email" name="equipo" id="equipo">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6">
+                <label class="label_estilo" for="mensaje">Mensaje:</label>
+                <textarea name="mensaje" id="mensaje" class="input_estilo">
 
                 </textarea>
             </div>
@@ -97,30 +97,29 @@
             <div class="col-md-6">
                 <div class="d-flex flex-column">
                     <div>
-                        <label for="rfc">RFC:</label>
-                        <input class="form-control" type="text" name="rfc" id="rfc">
+                        <label class="label_estilo" for="rfc">RFC:</label>
+                        <input class="input_estilo" type="text" name="rfc" id="rfc">
                     </div>
 
                     <div class="d-flex flex-column">
-                        <label for="contacto">Medio de contacto de preferencia:</label>
+                        <label class="label_estilo" for="contacto">Medio de contacto de preferencia:</label>
                         <div class="d-flex align-items-start justify-content-between">
                             <div>
                                 <div class="d-flex align-items-center gap-1">
                                     <input type="checkbox" name="llamada" id="llamada">
-                                    <label for="">Llamada</label>
+                                    <label class="label_checkbox" for="">Llamada</label>
                                 </div>
 
                                 <div class="d-flex align-items-center gap-1">
                                     <input type="checkbox" name="mensaje" id="mensaje">
-                                    <label for="">Mensaje</label>
+                                    <label class="label_checkbox" for="">Mensaje</label>
                                 </div>
                             </div>
 
                             <div class="d-flex align-items-center gap-1">
                                 <input type="checkbox" name="mensaje" id="mensaje">
-                                <label for="">Correo</label>
+                                <label class="label_checkbox" for="">Correo</label>
                             </div>
-
                         </div>
                     </div>
                 </div>
