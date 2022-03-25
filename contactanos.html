@@ -21,6 +21,12 @@
 
     <main class="container">
         <div class="row">
+            <div class="col-md-12">
+                <h1 class="text-uppercase text-center my-5">Contáctanos</h1>
+            </div>
+        </div>
+
+        <div class="row">
             <div class="col-md-6">
                 <div class="d-flex flex-column">
                     <label for="nombre">Nombre:</label>
@@ -92,13 +98,38 @@
                 <div class="d-flex flex-column">
                     <div>
                         <label for="rfc">RFC:</label>
-                        <input type="text" name="rfc" id="rfc">
+                        <input class="form-control" type="text" name="rfc" id="rfc">
                     </div>
 
-                    <div>
-                        
+                    <div class="d-flex flex-column">
+                        <label for="contacto">Medio de contacto de preferencia:</label>
+                        <div class="d-flex align-items-start justify-content-between">
+                            <div>
+                                <div class="d-flex align-items-center gap-1">
+                                    <input type="checkbox" name="llamada" id="llamada">
+                                    <label for="">Llamada</label>
+                                </div>
+
+                                <div class="d-flex align-items-center gap-1">
+                                    <input type="checkbox" name="mensaje" id="mensaje">
+                                    <label for="">Mensaje</label>
+                                </div>
+                            </div>
+
+                            <div class="d-flex align-items-center gap-1">
+                                <input type="checkbox" name="mensaje" id="mensaje">
+                                <label for="">Correo</label>
+                            </div>
+
+                        </div>
                     </div>
                 </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12 d-flex justify-content-center">
+                <button class="btn rounded-pill btn_estilo my-5">Enviar</button>
             </div>
         </div>
     </main>
