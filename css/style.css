@@ -558,9 +558,9 @@ h3 p {
 
 /* pagina nosotros */
 #linea_valores{
-    background-image: url('icons/nosotros/nosotros.png');
+    background-image: url('icons/nosotros/valores.png');
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
+    
     height: 100vh;
 }
