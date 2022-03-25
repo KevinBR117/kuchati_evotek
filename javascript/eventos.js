@@ -45,7 +45,8 @@ itm_tramite.addEventListener("click",function(){
 })
 
 itm_servicios.addEventListener("click", function () {
-    window.location.href = "servicios.html"
+    console.log("boton servicios")
+    window.location.href = "arrendamiento.html"
 })
 
 
