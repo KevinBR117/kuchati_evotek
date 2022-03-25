@@ -66,6 +66,3 @@ console.log(numero);
 
     }, 1000);
 /* } */
-
-
-

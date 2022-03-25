@@ -4,20 +4,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- bootstrap 5 -->
     <link rel="stylesheet" href="bootstrap/bootstrap.css">
-    </script>
     <link rel="stylesheet" href="bootstrap/bootstrap.bundle.js">
-    </script>
     <!-- font awesome -->
     <script src="https://kit.fontawesome.com/38964ce906.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style.css">
     <script type="text/javascript" src="javascript/jquery-3.6.0.min.js"></script>
     <title>Proceso</title>
+    <!-- Cargar script -->
+    <script src="javascript/eventos.js" defer></script>
 </head>
 
 <body>
     <div class="row">
         <div class="col-md-12">
-            <p class="label_estilo mx-3 text-end">Proceso</p>
+            <p class="label_estilo mx-3 mb-4 text-end">Proceso</p>
         </div>
     </div>
 
@@ -81,18 +81,28 @@
                 <p class="label_estilo text-uppercase m-0" style="color: #919082; line-height: 0.5;">Trámite</p>
                 <p class="label_estilo d-block m-0" style="color: #000;">Presenta la documentación necesaria a tu
                     asesor.</p>
-                <a class="label_estilo d-block text-uppercase" style="color: #000; line-height: 0.5;">Descargar.</a>
+                <button onclick="cargar()" class="label_estilo d-block text-uppercase"
+                    style="color: #000; line-height: 0.5; border:none; background-color: transparent;">Descargar.</button>
             </div>
         </div>
     </div>
 
     <footer>
         <div style="height: 6rem;" class="row mt-5">
-            <div style="background-color: #919082; height: 80%" class="col-md-12 d-flex justify-content-center align-items-center">
+            <div style="background-color: #919082; height: 80%"
+                class="col-md-12 d-flex justify-content-center align-items-center">
                 <p class="label_estilo m-0" style="color: #fff">¡Listo! Así de fácil es pertenecer a KUCHATI</p>
             </div>
-            <div style="background-color: #46453f; height: 20%" class="col-md-12 d-flex justify-content-center align-items-center">
+            <div style="background-color: #46453f; height: 20%"
+                class="col-md-12 d-flex justify-content-center align-items-center">
             </div>
         </div>
     </footer>
+
+    <script>
+        const cargar = () => {
+            window.open('sample.pdf');
+            return false;
+        }
+    </script>
 </body>

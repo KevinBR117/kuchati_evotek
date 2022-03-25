@@ -52,111 +52,114 @@
             </div>
         </div>
 
-        <div class="row">
-            <div class="col-md-6">
-                <div class="d-flex flex-column">
-                    <label class="label_estilo" for="nombre">Nombre:</label>
-                    <div class="form-check">
-                        <input type="checkbox">
-                        <label class="label_checkbox" for="persona_fisica">Persona física</label>
-                    </div>
-                    <div class="form-check">
-                        <input type="checkbox">
-                        <label class="label_checkbox" for="persona_moral">Persona moral</label>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-6">
-                <label class="label_estilo" for="servicio">Servicio:</label>
-                <div class="d-flex justify-content-center gap-3 w-100">
-                    <div class="form-check d-flex align-items-center gap-1">
-                        <input type="checkbox">
-                        <label class="label_checkbox" for="persona_fisica">Financiamiento</label>
-                    </div>
-                    <div class="form-check d-flex align-items-center gap-1">
-                        <input type="checkbox">
-                        <label class="label_checkbox" for="persona_fisica">Arrendamiento</label>
-                    </div>
-                    <div class="form-check d-flex align-items-center gap-1">
-                        <input type="checkbox">
-                        <label class="label_checkbox" for="persona_fisica">Sell y lease back</label>
-                    </div>
-                    <div class="form-check d-flex align-items-center gap-1">
-                        <input type="checkbox">
-                        <label class="label_checkbox" for="persona_fisica">Otro</label>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-md-6">
-                <label class="label_estilo" for="correo">Correo:</label>
-                <input class="input_estilo" type="email" name="correo" id="correo">
-            </div>
-            <div class="col-md-6">
-                <label class="label_estilo" for="monto">Monto solicitado:</label>
-                <input class="input_estilo" type="email" name="monto" id="monto">
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-md-6">
-                <label class="label_estilo" for="telefono">Telefono:</label>
-                <input class="input_estilo" type="tel" name="telefono" id="telefono">
-            </div>
-            <div class="col-md-6">
-                <label class="label_estilo" for="equipo">Equipo solicitado:</label>
-                <input class="input_estilo" type="email" name="equipo" id="equipo">
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-md-6">
-                <label class="label_estilo" for="mensaje">Mensaje:</label>
-                <textarea name="mensaje" id="mensaje" class="input_estilo">
-
-                </textarea>
-            </div>
-
-            <div class="col-md-6">
-                <div class="d-flex flex-column gap-3">
-                    <div>
-                        <label class="label_estilo" for="rfc">RFC:</label>
-                        <input class="input_estilo" type="text" name="rfc" id="rfc">
-                    </div>
-
+        <form action="mailto:kuchati@mail.com?subject=Nueva orden" method="post" enctype="text/plain">
+            <div class="row">
+                <div class="col-md-6">
                     <div class="d-flex flex-column">
-                        <label class="label_estilo" for="contacto">Medio de contacto de preferencia:</label>
-                        <div class="d-flex align-items-start justify-content-between">
-                            <div>
-                                <div class="d-flex align-items-center gap-1">
-                                    <input type="checkbox" name="llamada" id="llamada">
-                                    <label class="label_checkbox" for="">Llamada</label>
+                        <label class="label_estilo" for="nombre">Nombre:</label>
+                        <div class="form-check">
+                            <input type="checkbox" name="persona_fisica" id="persona_fisica">
+                            <label class="label_checkbox" name="persona_fisica" for="persona_fisica">Persona física</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" name="persona_moral" id="persona_moral">
+                            <label class="label_checkbox" name="persona_moral" for="persona_moral">Persona moral</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <label class="label_estilo" for="servicio">Servicio:</label>
+                    <div class="d-flex justify-content-center gap-3 w-100">
+                        <div class="form-check d-flex align-items-center gap-1">
+                            <input type="checkbox" name="financiamiento" id="financiamiento">
+                            <label class="label_checkbox" name="financiamiento" for="financiamiento">Financiamiento</label>
+                        </div>
+                        <div class="form-check d-flex align-items-center gap-1">
+                            <input type="checkbox" name="arrendamiento" id="arrendamiento">
+                            <label class="label_checkbox" name="arrendamiento" for="arrendamiento">Arrendamiento</label>
+                        </div>
+                        <div class="form-check d-flex align-items-center gap-1">
+                            <input type="checkbox" name="sell_lease_back" id="sell_lease_back">
+                            <label class="label_checkbox" name="sell_lease_back" for="sell_lease_back">Sell and lease back</label>
+                        </div>
+                        <div class="form-check d-flex align-items-center gap-1">
+                            <input type="checkbox" name="otro" id="otro">
+                            <label class="label_checkbox" name="otro" for="otro">Persona física</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6">
+                    <label class="label_estilo" for="correo">Correo:</label>
+                    <input class="input_estilo" type="email" name="correo" id="correo">
+                </div>
+                <div class="col-md-6">
+                    <label class="label_estilo" for="monto">Monto solicitado:</label>
+                    <input class="input_estilo" type="text" name="monto" id="monto">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6">
+                    <label class="label_estilo" for="telefono">Telefono:</label>
+                    <input class="input_estilo" type="tel" name="telefono" id="telefono">
+                </div>
+                <div class="col-md-6">
+                    <label class="label_estilo" for="equipo">Equipo solicitado:</label>
+                    <input class="input_estilo" type="text" name="equipo" id="equipo">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6">
+                    <label class="label_estilo" for="mensaje">Mensaje:</label>
+                    <textarea name="mensaje" id="mensaje" class="input_estilo">
+
+                    </textarea>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="d-flex flex-column gap-3">
+                        <div>
+                            <label class="label_estilo" for="rfc">RFC:</label>
+                            <input class="input_estilo" type="text" name="rfc" id="rfc">
+                        </div>
+
+                        <div class="d-flex flex-column">
+                            <label class="label_estilo" for="contacto">Medio de contacto de preferencia:</label>
+                            <div class="d-flex align-items-start justify-content-between">
+                                <div>
+                                    <div class="d-flex align-items-center gap-1">
+                                        <input type="checkbox" name="llamada" id="llamada">
+                                        <label class="label_checkbox" for="">Llamada</label>
+                                    </div>
+
+                                    <div class="d-flex align-items-center gap-1">
+                                        <input type="checkbox" name="mensaje" id="mensaje">
+                                        <label class="label_checkbox" for="">Mensaje</label>
+                                    </div>
                                 </div>
 
                                 <div class="d-flex align-items-center gap-1">
-                                    <input type="checkbox" name="mensaje" id="mensaje">
-                                    <label class="label_checkbox" for="">Mensaje</label>
+                                    <input type="checkbox" name="correo" id="correo">
+                                    <label class="label_checkbox" for="">Correo</label>
                                 </div>
-                            </div>
-
-                            <div class="d-flex align-items-center gap-1">
-                                <input type="checkbox" name="mensaje" id="mensaje">
-                                <label class="label_checkbox" for="">Correo</label>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
 
-        <div class="row">
-            <div class="col-md-12 d-flex justify-content-center">
-                <button class="btn rounded-pill btn_estilo my-5">Enviar</button>
+            <div class="row">
+                <div class="col-md-12 d-flex justify-content-center">
+                    <input type="submit" value="Submit">
+                </div>
             </div>
-        </div>
+
+        </form>
     </main>
 
     <script src="javascript/eventos.js"></script>
