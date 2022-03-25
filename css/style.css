@@ -111,6 +111,7 @@
 
 .label_estilo {
     font-family: 'ACaslonPro-SemiBold';
+    color: #000
 }
 
 .label_checkbox {
@@ -121,6 +122,12 @@
 .contactanos_header_estilo {
     font-family: 'ACaslonPro-SemiBold';
     color: #000;
+}
+
+.linea {
+    height: 3rem;
+    width: 0.05rem;
+    background-color: #c0c0bd;
 }
 
 .semiboldi_menu {
