@@ -41,7 +41,7 @@ itm_nosotros.addEventListener("click", function(){
 
 itm_tramite.addEventListener("click",function(){
     console.log("clicked")
-    window.location.href = "tramite.html"
+    window.location.href = "proceso.html"
 })
 
 itm_servicios.addEventListener("click", function(){
@@ -50,7 +50,7 @@ itm_servicios.addEventListener("click", function(){
 })
 
 
-/* animacion pagina conocenos */
+/* animacion pagina nosotros */
 var numero = 0;
 console.log(numero);
 /* if (document.getElementById("numeroVar") != null) { */
