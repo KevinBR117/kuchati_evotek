@@ -35,9 +35,10 @@
     color: rgba(230, 230, 230, .9);
     padding: 15px 10px;
     text-align: left;
-    letter-spacing: 1px;
+    font-size: 20px;
+    letter-spacing: 2px;
     cursor: pointer;
-    font-family: 'MyriadPro-SemiBold';
+    font-family: 'ACaslonPro-SemiBold';
 }
 
 #sidebar.active {
@@ -57,7 +58,7 @@
 }
 
 @font-face {
-    font-family: ACaslonPro-Regular;
+    font-family: 'ACaslonPro-Regular';
     src: url('./fonts/ACaslonPro-Regular.otf');
 }
 
@@ -98,6 +99,37 @@
     z-index: -1 !important;
     font-size: large !important;
     font-family: 'MyriadPro-SemiBold' !important;
+}
+
+.input_estilo {
+    width: 100%;
+    border-radius: 1rem;
+    border-color: transparent;
+    -webkit-box-shadow: 0px 0px 17px 1px rgba(0, 0, 0, 0.49);
+    box-shadow: 0px 0px 17px 1px rgba(0, 0, 0, 0.49);
+    margin-top: 0.5rem;
+    padding-left: 1rem;
+}
+
+.label_estilo {
+    font-family: 'ACaslonPro-SemiBold';
+    color: #000
+}
+
+.label_checkbox {
+    font-family: 'ACaslonPro-SemiBoldItalic';
+    color: #919082;
+}
+
+.contactanos_header_estilo {
+    font-family: 'ACaslonPro-SemiBold';
+    color: #000;
+}
+
+.linea {
+    height: 3rem;
+    width: 0.05rem;
+    background-color: #c0c0bd;
 }
 
 .semiboldi_menu {
@@ -399,7 +431,7 @@ h3 p {
     font-size: large;
     letter-spacing: 3px;
     font-family: 'ACaslonPro-Bold';
-    -moz-border-radius: 100%;
+    /* -moz-border-radius: 100%;
     -webkit-border-radius: 100%;
     border-radius: 100%;
     width: 300px;
@@ -407,6 +439,7 @@ h3 p {
     border-color: white !important;
     border: 10px !important;
     background: rgba(0, 0, 0, 0.5);
+    transform: rotate(45deg); */
 }
 
 .numero::after {
@@ -420,13 +453,9 @@ h3 p {
     background-color: #919082;
 }
 
-.socio:hover {
+.socio:hover{
 
     background-image: url('icons/conocenos/socios_edit.png');
-    /* linear-gradient(
-        rgba(165,169,111,0)
-    ) */
-    ;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -484,7 +513,7 @@ h3 p {
     transform: rotate(-15deg);
 }
 
-/* pagina prestamo */
+/* pagina inicio */
 #linea_prestamo {
     background-image: url("icons/prestamo/prestamo.png");
     width: auto;
@@ -519,8 +548,155 @@ h3 p {
 
 /* Arrendamiento */
 .elemento_gris {
-    background-color: gray;
+    background-color: #919082;
     -webkit-box-shadow: inset 9px 10px 24px 6px rgba(0, 0, 0, 0.30);
     box-shadow: inset 9px 10px 24px 6px rgba(0, 0, 0, 0.30);
     color: white;
+}
+.elemento_blanco {
+    background-color: white;
+    -webkit-box-shadow: inset 9px 10px 24px 6px rgba(0, 0, 0, 0.30);
+    box-shadow: inset 9px 10px 24px 6px rgba(0, 0, 0, 0.30);
+    color: white;
+}
+
+
+/* pagina nosotros */
+#linea_valores{
+    background-image: url('icons/nosotros/valores.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    height: 100vh;
+}
+
+/* pagina arrendamiento */
+.linea_1_a:hover {
+    background-color: #fff;
+    color: #919082 !important;
+    border-left-color: black;
+    border-left-style: solid;
+}
+.linea_1_b:hover {
+    background-color: #fff;
+    color: #919082 !important;
+    border-left-color: black;
+    border-left-style: solid;
+}
+.linea_1_c:hover {
+    background-color: #fff;
+    color: #919082 !important;
+    border-left-color: black;
+    border-left-style: solid;
+}
+.linea_1_d:hover {
+    background-color: #fff;
+    color: #919082 !important;
+    border-left-color: black;
+    border-left-style: solid;
+}
+.linea_1_e:hover {
+    background-color: #fff;
+    color: #919082 !important;
+    border-left-color: black;
+    border-left-style: solid;
+}
+.seccion_a{
+    font-family: 'ACaslonPro-SemiBoldItalic';
+    font-size: x-large;
+    letter-spacing: 2px;
+}
+.linea_1_a1:hover {
+    background-color: rgba(128, 128, 128, 0.089);
+    color: #919082;
+    border-left-color: gray;
+    border-left-style: solid;
+}
+.linea_1_b1:hover {
+    background-color: rgba(128, 128, 128, 0.089);
+    color: #919082;
+    border-left-color: gray;
+    border-left-style: solid;
+}
+.linea_1_c1:hover {
+    background-color: rgba(128, 128, 128, 0.089);
+    color: #919082;
+    border-left-color: gray;
+    border-left-style: solid;
+}
+.linea_1_d1:hover {
+    background-color: rgba(128, 128, 128, 0.089);
+    color: #919082;
+    border-left-color: gray;
+    border-left-style: solid;
+}
+.linea_1_e1:hover {
+    background-color: rgba(128, 128, 128, 0.089);
+    color: #919082;
+    border-left-color: gray;
+    border-left-style: solid;
+}
+
+.box_1{
+    background-image: url('icons/arrendamiento/arrendamiento_puro.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#parrafo_1{
+    z-index:-1;
+}
+.box_1:hover{
+    background: none;
+}
+.box_1:hover #parrafo_1{
+    z-index: 1;
+}
+
+.box_2{
+    background-image: url('icons/arrendamiento/arrendamiento_financiero.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#parrafo_2{
+    z-index: -1;
+}
+.box_2:hover{
+    background: none;
+}
+.box_2:hover #parrafo_2{
+    z-index: 1;
+}
+
+.box_3{
+    background-image: url('icons/arrendamiento/sale_y_leaseback.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#parrafo_3{
+    z-index: -1;
+}
+.box_3:hover{
+    background: none;
+}
+.box_3:hover #parrafo_3{
+    z-index: 1;
+}
+
+.box_4{
+    background-image: url('icons/arrendamiento/cocina.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#parrafo_4{
+    z-index: -1;
+}
+.box_4:hover{
+    background: none;
+}
+.box_4:hover #parrafo_4{
+    z-index: 1;
 }
