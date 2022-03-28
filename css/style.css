@@ -429,7 +429,7 @@ h3 p {
 
 #mexicanas::after {
     content: 'MEXICANAS';
-    font-size: large;
+    font-size: x-large;
     letter-spacing: 3px;
     font-family: 'ACaslonPro-Bold';
     /* -moz-border-radius: 100%;
