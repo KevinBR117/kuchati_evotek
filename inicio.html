@@ -13,8 +13,8 @@
     <script src="https://kit.fontawesome.com/38964ce906.js" crossorigin="anonymous"></script>
 
     <script type="text/javascript" src="javascript/jquery-3.6.0.min.js"></script>
-     <!-- font awesome -->
-     <script src="https://kit.fontawesome.com/38964ce906.js" crossorigin="anonymous"></script>
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/38964ce906.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style.css">
     <title>Inicio</title>
 </head>
@@ -97,9 +97,17 @@
 
         <div class="d-flex flex-column mt-5">
             <p class="pb-5 seccion me-5">Servicios</p>
-            <p class="bold" style="align-self: center; letter-spacing: 2px;">Queremos que más empresas <span id="mexicanas">MEXICANAS</span>
-            </p>
-            <p class="bold" style="align-self: center; letter-spacing: 2px;">obtengan liquidez empresarial.</p>
+
+            <div class="d-flex justify-content-center">
+
+                <p class="bold" style="align-self: center; letter-spacing: 2px; transform: translateX(40px);">Queremos
+                    que más empresas<br>
+                    obtengan liquidez empresarial.</p>
+
+                <img src="css/icons/inicio/mexicanas.png" alt=""
+                    style="width: 25%;height: 90%;transform: translateX(-50%); transform: translateY(-40%);">
+            </div>
+
 
 
         </div>
@@ -124,7 +132,7 @@
                         - Financiamiento<br>
                     </p>
                 </div>
-                    <p class="seccion" style="letter-spacing: normal !important; font-size: x-large !important;">
+                <p class="seccion" style="letter-spacing: normal !important; font-size: x-large !important;">
                     ...para que tu negocio prospere.
                 </p>
 
@@ -146,17 +154,16 @@
 
             <div class="col-6 d-flex mt-5 justify-content-center">
 
-                <div class="d-flex flex-column justify-content-between p-5" style="width: 70vh">
+                <div class="d-flex flex-column justify-content-between p-" style="width: 70vh">
 
                     <p class="mt-3" style="text-align:left; letter-spacing: 3px; font-size: xx-large;
                         color: #919082;font-family: 'ACaslonPro-Regular';">
                         KÜCHATI
-
                     </p>
+
                     <hr>
                     <p class="semiboldi linea_1" style="text-align:left; text-indent: 5px;"> Bajas tasas de interés</p>
-                    <p class="semiboldi linea_2" style="text-align:left; text-indent: 5px;"> Requisitos mínimos
-                        y<br>trámite sencillo</p>
+                    <p class="semiboldi linea_2" style="text-align:left; text-indent: 5px;"> Requisitos mínimos y<br>trámite sencillo</p>
                     <p class="semiboldi linea_3" style="text-align:left; text-indent: 5px;"> Cita online o presencial</p>
                     <p class="semiboldi linea_4" style="text-align:left; text-indent: 5px;"> Rápida respuesta</p>
                     <p class="semiboldi linea_5" style="text-align:left; text-indent: 5px;"> Monto flexible</p>
@@ -187,12 +194,12 @@
 
 
     <!-- ¿como puedo usar mi prestamo? -->
-    <div class="row " id="linea_prestamo" style="height: 50%;">
+    <div class="row " id="linea_prestamo" style="height: 50%;" name="seccion_prestamo">
 
         <p class="mt-5 px-3 seccion" style="text-align: end; color: white;">¿Cómo puedo usar mi préstamo?</p>
 
-        <div class="d-flex justify-content-between px-5 pb-5" id="contenedor_1"
-            style="box-shadow: 0px 5px 5px 1px rgba(0, 0, 0, 0.377);">
+        <div class="d-flex flex-column flex-md-row px-5 pb-5 gap-5 justify-content-center" id="contenedor_1" 
+            style="box-shadow: 0px 5px 5px 1px rgba(0, 0, 0, 0.377); width: 90%; transform: translate(5%,5%);">
 
 
             <div class="d-flex flex-column align-items-center mt-5 px-5" style="box-shadow: 5px 0px 5px -5px;">
@@ -209,6 +216,7 @@
                     mejor experiencia.
                 </p>
             </div>
+            
 
             <div class="d-flex flex-column align-items-center mt-5 px-5" style="box-shadow: 5px 0px 5px -5px;">
                 <img src="css/icons/prestamo/icono_2.png" alt="" style="width: 10vh; height: 10vh;">
@@ -248,8 +256,9 @@
 
         <p class="mt-5 px-3 seccion" style="text-align: end;">Sé parte de Küchati</p>
         <div class="mt-5 px-5 col-7 d-flex flex-column">
-            <p class="semiboldi" style="align-self: flex-start;">Join the TEAM.
-                <hr>
+            <!-- <p class="semiboldi" style="align-self: flex-start;">Join the TEAM. -->
+            <img src="css/icons/conocenos/join the team.png" alt="" style="width:50%">
+            <hr>
             </p>
             <p class="regular" style="font-size: 22px;">
                 <span class="seccion"
@@ -257,7 +266,8 @@
                     muy fácil, sólo necesitas:</span><br><br>
                 - Cumplir con los documentos necesarios establecidos
                 <br><br>
-                <span class="semiboldi" style="font-size: 22px;"> Y listo!</span> Consigue un préstamo para fortalecer tu negocio e impulsar<br>
+                <span class="semiboldi" style="font-size: 22px;"> Y listo!</span> Consigue un préstamo para fortalecer
+                tu negocio e impulsar<br>
                 su crecimiento. Encontrarás en nosotros un servicio financiero<br>
                 <span class="bold" style="font-size: 22px;">confiable y seguro.</span>
             </p>
@@ -279,13 +289,17 @@
                     <span class="regular" style="font-size: 100px; color: white;">?</span>
                 </span>
             </h3>
-            <p class="regular mt-3" style="align-self: center; color: white; font-size: x-large;">
-                Solicita tu préstamo o arrendamiento <span><a href="contactanos.html" class="regular"
-                        style="color: white; font-size: x-large;">aquí</a></span>
-            </p>
-            <img src="css/icons/prestamo/loco_obscuro.png" alt=""
-                style="height: 5vh; width: 25vh;align-self: center;transform: translatey(100px);">
-
+            <div class="d-flex justify-content-center">
+                <p class="regular mt-3" style=" color: white; font-size: x-large;">
+                    Solicita tu préstamo o arrendamiento
+                </p>
+                    <a href="contactanos.html">
+                        <img src="css/icons/conocenos/aquí_1.png" alt="" style="width: 65%; height: 23%; transform: translate(-25%,0%);">
+                    </a>   
+            </div>
+                <img src="css/icons/prestamo/loco_obscuro.png" alt=""
+                style="height: 5vh; width: 25vh;align-self: center">
+                
         </div>
 
     </div>
@@ -309,11 +323,12 @@
                 </a>
             </div>
         </div>
-        
+
         <div class="d-flex justify-content-left mt-3" style="align-items: center">
             <a href="AVISO DE PRIVACIDAD KUCHATI.pdf" class="sin_decoracion">
-                <p style="letter-spacing: 1px; font-family: 'ACaslonPro-SemiBoldItalic' !important;" id="aviso">Aviso y privacidad</p>
-                
+                <p style="letter-spacing: 1px; font-family: 'ACaslonPro-SemiBoldItalic' !important;" id="aviso">Aviso y
+                    privacidad</p>
+
             </a>
         </div>
         <hr style="color: white;">

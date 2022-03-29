@@ -129,10 +129,15 @@
 }
 
 .linea {
-    height: 3rem;
+    height: 5rem;
     width: 0.05rem;
     background-color: #c0c0bd;
 }
+/* .linea_1 {
+    height: 3rem;
+    width: 0.05rem;
+    background-color: #c0c0bd;
+} */
 
 .semiboldi_menu {
     font-family: 'ACaslonPro-SemiBoldItalic';
@@ -376,15 +381,16 @@ h3 p {
     text-align: center;
     font-family: 'Anisette-SemibBold';
     letter-spacing: 1px;
-    font-size: large;
+    font-size: x-large;
     color: #919082;
 }
 
 .carousel-item p {
     text-align: center;
     font-family: 'ACaslonPro-Semibold';
-    font-size: medium;
+    font-size: x-large;
     color: black;
+    line-height: 30px;
 }
 
 #aviso{
@@ -717,3 +723,12 @@ h3 p {
 .box_4:hover #parrafo_4{
     z-index: 1;
 }
+
+/* pagina contactanos */
+/* #barra_progreso{
+    background-color: #919082 !important;
+}
+progress{
+    background: #919082 !important;
+    border-radius: 9px;
+} */

@@ -49,18 +49,6 @@ itm_servicios.addEventListener("click", function(){
     window.location.href = "arrendamiento.html"
 })
 
-/* var btn_contacto = document.getElementById("columna_contacto");
-var btn_solicita = document.getElementById("columna_prestamo");
-
-btn_contacto.addEventListener("click", function(){
-    window.location.href  = "conocenos"
-})
-
-
-
-var avsisoo = document.getElementById("aviso");
- */
-
 
 /* animacion pagina nosotros */
 var numero = 0;
