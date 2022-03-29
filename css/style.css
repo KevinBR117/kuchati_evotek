@@ -334,7 +334,9 @@
     z-index: 1;
 }
 
-
+.sin_decoracion{
+    text-decoration: none;
+}
 
 /* parrafos en general */
 p {
@@ -501,6 +503,13 @@ h3 p {
 }
 
 .linea_5:hover {
+    background-color: rgba(128, 128, 128, 0.089);
+    color: #919082;
+    border-left-color: gray;
+    border-left-style: solid;
+}
+
+.linea_6:hover {
     background-color: rgba(128, 128, 128, 0.089);
     color: #919082;
     border-left-color: gray;
