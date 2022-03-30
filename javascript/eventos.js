@@ -25,6 +25,7 @@ var itm_inicio = document.getElementById("itm_inicio");
 var itm_nosotros = document.getElementById("itm_nosotros");
 var itm_tramite = document.getElementById("itm_tramite");
 var itm_servicios = document.getElementById("itm_servicios");
+var itm_contacto = document.getElementById("itm_contacto")
 console.log(itm_servicios)
 
 itm_logo.addEventListener("click", function () { 
@@ -48,7 +49,9 @@ itm_servicios.addEventListener("click", function(){
     console.log("boton servicios")
     window.location.href = "arrendamiento.html"
 })
-
+ itm_contacto.addEventListener("click", function(){
+     window.location.href = "contactanos.html"
+ })
 
 /* animacion pagina nosotros */
 var numero = 0;
@@ -64,5 +67,5 @@ console.log(numero);
             clearInterval(reloj);
         }
 
-    }, 1000);
+    }, 250);
 /* } */

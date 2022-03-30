@@ -21,20 +21,22 @@
 
 
     <!-- barra de navegacion -->
-    <div class="row bg-dark fixed-top" style="height: 10vh">
+    <div class="row bg-dark fixed-top">
         <div class="toggle-btn d-flex">
             <span id="bar" class="p-2 d-flex align-items-center"
-                style="height: 10vh; font-size: xx-large; cursor: pointer; color: white;">&#9776;</span>
+                style="height: 85%; font-size: xx-large; cursor: pointer; color: white;">&#9776;</span>
             <span class="p-2">
-                <img src="css/icons/inicio/logo_barra.png" id="btn_logo"
-                    style="width: 30vh; height: 10vh; cursor: pointer;" ;alt="Logotipo">
+                <img src="css/icons/inicio/kuchati_logo.png" id="btn_logo"
+                    style="width: 100%; height: 100%; cursor: pointer;" ;alt="Logotipo">
             </span>
 
         </div>
-        <progress id="barra_progreso" value="0" max="7" style="transform: translateY(-100%);"></progress>
-
+        
+        <progress id="barra_progreso" value="0" max="7" style="transform: translateY(0%);"></progress>
     </div>
-
+    <!-- <div class="" style="position: absolute;">
+        <progress id="barra_progreso" value="0" max="7" style="transform: translateY(0%);"></progress>
+    </div> -->
     <!-- sidebar -->
     <div id="sidebar" class="row">
         <ul class="mt-5 py-5 ms-4" style="list-style: none">
@@ -42,8 +44,13 @@
             <li id="itm_nosotros">NOSOTROS</li>
             <li id="itm_tramite">TRÁMITE</li>
             <li id="itm_servicios">SERVICIOS</li>
+            <li id="itm_contacto">CONTACTO</li>
         </ul>
 
+    </div>
+
+    <div class="row">
+        <progress id="barra_progreso" value="0" max="7" style="transform: translateY(0%);"></progress>
     </div>
 
 
