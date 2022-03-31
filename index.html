@@ -28,16 +28,15 @@
 
 <body class="container-fluid">
     <!-- barra de navegacion -->
-    <div class="row bg-dark fixed-top" >
+    <div class="row bg-dark fixed-top" style="height: 9%;">
         <div class="toggle-btn d-flex">
             <span id="bar" class="p-2 d-flex align-items-center"
-                style="height: 85%; font-size: xx-large; cursor: pointer; color: white;">&#9776;</span>
+                style="height: 75%; font-size: xx-large; cursor: pointer; color: white;">&#9776;</span>
             <span class="p-2">
                 <img src="css/icons/inicio/kuchati_logo.png" id="btn_logo"
-                    style="width: 100% ; height: 100%; cursor: pointer;" ;alt="Logotipo">
+                    style="width: 100%; height: 80%; cursor: pointer;" ;alt="Logotipo">
             </span>
         </div>
-
     </div>
 
     <!-- sidebar -->
@@ -71,12 +70,16 @@
 
                 <a class="btn rounded-pill btn_estilo" id="btn_conocenos" href="inicio.html">CONÓCENOS</a>
                 <div class="mt-5 ms-5" id="detalle_contenido">
-                    <p class="semiboldi_menu">Servicios</p>
-                    <p class="semiboldi_menu">Socios</br>
-                        Comerciales</p>
+                    <a href="inicio.html#servicios" class="sin_decoracion">
+                        <p class="semiboldi_menu">Servicios</p>
+                    </a>
+                    <a href="inicio.html#socios_comerciales" class="sin_decoracion">
+                        <p class="semiboldi_menu">Socios</br>
+                            Comerciales</p>
+                    </a>
                 </div>
 
-                <a class="btn rounded-pill btn_estilo" id="btn_prestamo" href="inicio.html#seccion_prestamo">
+                <a class="btn rounded-pill btn_estilo" id="btn_prestamo" href="inicio.html#linea_prestamo">
                     <p class="mb-0 rounded-pill btn_estilo">
                         ¿CÓMO USAR</br>
                         MI ARRENDAMIENTO</br>
@@ -84,7 +87,9 @@
                     </p>
                 </a>
                 <div class="mt-5 ms-5" id="detalle_contenido_1">
-                    <p class="semiboldi_menu">¿Cómo <br />pertenecer<br />a Küchati</p>
+                    <a href="inicio.html#pertenecer_kuchati" class="sin_decoracion">
+                        <p class="semiboldi_menu">¿Cómo <br />pertenecer<br />a Küchati</p>
+                    </a>
                 </div>
             </div>
             <p style="width: 2ch ; text-shadow: 0 0 5px black;" class="rotar_etiqueta ms-5 ps-5" id="etiqueta_inicio">INICIO</p>
@@ -99,9 +104,15 @@
                 <a class="btn rounded-pill btn_estilo" id="btn_acercaDe" href="nosotros.html">ACERCA DE KÜCHATI</a>
 
                 <div class="mt-5 ms-5" id="detalle_contenido_2">
-                    <p class="semiboldi_menu">Nuestra historia</p>
-                    <p class="semiboldi_menu">Valores</p>
-                    <p class="semiboldi_menu">Testimonios</p>
+                    <a href="nosotros.html" class="sin_decoracion">
+                        <p class="semiboldi_menu">Nuestra historia</p>
+                    </a>
+                    <a href="nosotros.html#linea_valores" class="sin_decoracion">
+                        <p class="semiboldi_menu">Valores</p>
+                    </a>
+                    <a href="nosotros.html#testimonios" class="sin_decoracion">
+                        <p class="semiboldi_menu">Testimonios</p>
+                    </a>
                 </div>
             </div>
 
@@ -116,8 +127,12 @@
                 <a class="btn rounded-pill btn_estilo" id="btn_procesos" href="proceso.html">PROCESOS</a>
 
                 <div class="mt-5 ms-5" id="detalle_contenido_3">
-                    <p class="semiboldi_menu">Pasos a seguir</p>
-                    <p class="semiboldi_menu">Documentación</p>
+                    <a href="proceso.html" class="sin_decoracion">
+                        <p class="semiboldi_menu">Pasos a seguir</p>
+                    </a>
+                    <a href="documentación.pdf" class="sin_decoracion">
+                        <p class="semiboldi_menu">Documentación</p>
+                    </a>
                 </div>
             </div>
 
@@ -138,10 +153,18 @@
                 </a>
 
                 <div class="mt-5 ms-5" id="detalle_contenido_4">
-                    <p class="semiboldi_menu">Arrendamiento puro</p>
-                    <p class="semiboldi_menu">Arrendamiento</br>financiero</p>
-                    <p class="semiboldi_menu">Sale & Lease back</p>
-                    <p class="semiboldi_menu">Financiamiento</p>
+                    <a href="arrendamiento.html" class="sin_decoracion">
+                        <p class="semiboldi_menu">Arrendamiento puro</p>
+                    </a>
+                    <a href="arrendamiento.html#arrend_financ" class="sin_decoracion">
+                        <p class="semiboldi_menu">Arrendamiento</br>financiero</p>
+                    </a>
+                    <a href="arrendamiento.html#sale_&_lease_back" class="sin_decoracion">
+                        <p class="semiboldi_menu">Sale & Lease back</p>
+                    </a>
+                    <a href="arrendamiento.html#financiamiento" class="sin_decoracion">
+                        <p class="semiboldi_menu">Financiamiento</p>
+                    </a>
                 </div>
             </div>
 
@@ -257,7 +280,6 @@
         <div class="d-flex justify-content-left mt-3" style="align-items: center">
             <a href="AVISO DE PRIVACIDAD KUCHATI.pdf" class="sin_decoracion">
                 <p style="letter-spacing: 1px; font-family: 'ACaslonPro-SemiBoldItalic' !important;" id="aviso">Aviso y privacidad</p>
-                
             </a>
         </div>
         <hr style="color: white;">

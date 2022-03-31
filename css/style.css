@@ -211,12 +211,12 @@
     z-index: -1;
 }
 
-#btn_conocenos:hover~#detalle_contenido {
-    z-index: 1;
+#columna_1:hover #detalle_contenido {
+    z-index: 1 !important;
 }
 
-#btn_prestamo:hover~#detalle_contenido_1 {
-    z-index: 1;
+#columna_1:hover #detalle_contenido_1 {
+    z-index: 1 !important;
 }
 
 #columna_2 {
@@ -255,8 +255,8 @@
     z-index: -1;
 }
 
-#btn_acercaDe:hover~#detalle_contenido_2 {
-    z-index: 1;
+#columna_2:hover #detalle_contenido_2 {
+    z-index: 1 !important;
 }
 
 #columna_3 {
@@ -295,8 +295,8 @@
     z-index: -1;
 }
 
-#btn_procesos:hover~#detalle_contenido_3 {
-    z-index: 1;
+#columna_3:hover #detalle_contenido_3 {
+    z-index: 1 !important;
 }
 
 #columna_4 {
@@ -335,8 +335,8 @@
     z-index: -1;
 }
 
-#btn_servicios:hover~#detalle_contenido_4 {
-    z-index: 1;
+#columna_4:hover #detalle_contenido_4 {
+    z-index: 1 !important;
 }
 
 .sin_decoracion{
