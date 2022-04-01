@@ -56,7 +56,7 @@ itm_servicios.addEventListener("click", function(){
 /* animacion pagina nosotros */
 var numero = 0;
 console.log(numero);
-/* if (document.getElementById("numeroVar") != null) { */
+if (document.getElementById("numeroVar") != null) { 
 
     var reloj = window.setInterval(function () {
         document.getElementById("numeroVar").innerHTML = numero;
@@ -68,4 +68,4 @@ console.log(numero);
         }
 
     }, 250);
-/* } */
+} 

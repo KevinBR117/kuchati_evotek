@@ -29,8 +29,13 @@
                     style="width: 100%; height: 80%; cursor: pointer;" ;alt="Logotipo">
             </span>
         </div>
-        
-        <progress id="barra_progreso" value="0" max="7" style="transform: translateY(-90%);"></progress>
+        <!-- <progress id="barra_progreso" value="0" max="7" style="transform: translateY(-90%);"></progress> -->
+        <div class="progress" style="transform: translateY(-50%);">
+            <div id="barra_progreso_1" class="progress-bar" role="progressbar"
+                style="width: 0%; background-color: #919082;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="7">
+            </div>
+        </div>
+
     </div>
     <!-- <div class="" style="position: absolute;">
         <progress id="barra_progreso" value="0" max="7" style="transform: translateY(0%);"></progress>
@@ -114,29 +119,34 @@
             <div class="row">
                 <div class="col-md-6">
                     <label class="label_estilo" for="correo">Correo:</label>
-                    <input class="input_estilo" required type="email" name="correo" id="correo" onfocusout="cambiar_progreso(this)">
+                    <input class="input_estilo" required type="email" name="correo" id="correo"
+                        onfocusout="cambiar_progreso(this)">
                 </div>
                 <div class="col-md-6">
                     <label class="label_estilo" for="monto">Monto solicitado:</label>
-                    <input class="input_estilo" required type="text" name="monto" id="monto" onfocusout="cambiar_progreso(this)">
+                    <input class="input_estilo" required type="text" name="monto" id="monto"
+                        onfocusout="cambiar_progreso(this)">
                 </div>
             </div>
 
             <div class="row">
                 <div class="col-md-6">
                     <label class="label_estilo" for="telefono">Telefono:</label>
-                    <input class="input_estilo" required type="tel" name="telefono" id="telefono" onfocusout="cambiar_progreso(this)">
+                    <input class="input_estilo" required type="tel" name="telefono" id="telefono"
+                        onfocusout="cambiar_progreso(this)">
                 </div>
                 <div class="col-md-6">
                     <label class="label_estilo" for="equipo">Equipo solicitado:</label>
-                    <input class="input_estilo" required type="text" name="equipo" id="equipo" onfocusout="cambiar_progreso(this)">
+                    <input class="input_estilo" required type="text" name="equipo" id="equipo"
+                        onfocusout="cambiar_progreso(this)">
                 </div>
             </div>
 
             <div class="row">
                 <div class="col-md-6">
                     <label class="label_estilo" for="mensaje">Mensaje:</label>
-                    <textarea name="mensaje" id="mensaje" required class="input_estilo" style="height: 80%;" onfocusout="cambiar_progreso(this)">
+                    <textarea name="mensaje" id="mensaje" required class="input_estilo" style="height: 80%;"
+                        onfocusout="cambiar_progreso(this)">
 
                     </textarea>
                 </div>
@@ -145,7 +155,8 @@
                     <div class="d-flex flex-column gap-3">
                         <div>
                             <label class="label_estilo" for="rfc">RFC:</label>
-                            <input class="input_estilo" required type="text" name="rfc" id="rfc" onfocusout="cambiar_progreso(this)">
+                            <input class="input_estilo" required type="text" name="rfc" id="rfc"
+                                onfocusout="cambiar_progreso(this)">
                         </div>
 
                         <div class="d-flex flex-column">
@@ -176,14 +187,23 @@
 
             <script>
                 function cambiar_progreso(input) {
-                    console.log("funcion")
+                    /*      console.log("funcion") */
 
                     if (input.value != "") {
 
-                        var barra = document.getElementById("barra_progreso");
-                        var barra_valor = parseInt(barra.value)
+                        var width_actual = document.getElementById("barra_progreso_1").style.width;
+                        var barra = parseInt(width_actual.replace('%', '')) + 15;
+                        document.getElementById("barra_progreso_1").style.width = barra + '%';
+
+
+
+
+                        console.log(barra);
+
+
+                        /* var barra_valor = parseInt(barra.value)
                         barra_valor += 1;
-                        barra.value = String(barra_valor)
+                        barra.value = String(barra_valor) */
 
                     }
 
