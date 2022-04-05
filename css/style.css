@@ -83,7 +83,7 @@
 
 
 .btn_estilo {
-    align-self: center !important;
+    align-self: center ;
     /*alinear elementos dentro de un d-flex*/
     text-align: center !important;
     letter-spacing: 2px;
@@ -148,12 +148,22 @@
     letter-spacing: 3px;
 
 }
+.alinear_etiqueta {
+    font-family: ('ACaslonPro-Regular');
+    color: white;
+    z-index: 1;
+    transform: rotate(0deg);
+    font-size: x-large;
+    letter-spacing: 3px;
+
+}
 
 #columna_1 {
     background-image: url("/kuchati/images/pexels-alena-darmel-7641842.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    /* height: 100vh; */
     /*desplazar la imagen en cierta áerea*/
     background-position: 70%, 25%;
 }
@@ -182,12 +192,12 @@
 }
 
 #btn_conocenos {
-    width: 60%;
-    height: 50%;
+    width: 25vh;
+    height: auto;
 }
 
 #btn_prestamo {
-    width: 75% !important;
+    width: 35vh;
     height: auto !important;
 }
 
@@ -240,8 +250,8 @@
 }
 
 #btn_acercaDe {
-    width: 60%;
-    height: 50%;
+    width: auto;
+    height: auto;
 }
 
 #detalle_contenido_2 {
@@ -280,8 +290,8 @@
 }
 
 #btn_procesos {
-    width: 60%;
-    height: 50%;
+    width: 25vh;
+    height: auto;
 }
 
 #detalle_contenido_3 {
@@ -390,7 +400,7 @@ h3 p {
     cursor: pointer;
 }
 #guiones::before {
-    content: "──────── ";
+    content: "─────── ";
     font-size: medium;
     letter-spacing: 0px;
 }

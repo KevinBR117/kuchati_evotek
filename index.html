@@ -27,10 +27,10 @@
     <div class="row bg-dark fixed-top" style="height: 9%;">
         <div class="toggle-btn d-flex">
             <span id="bar" class="p-2 d-flex align-items-center"
-                style="height: 75%; font-size: xx-large; cursor: pointer; color: white;">&#9776;</span>
+                style="height: 85%; font-size: xx-large; cursor: pointer; color: white;">&#9776;</span>
             <span class="p-2">
                 <img src="css/icons/inicio/kuchati_logo.png" id="btn_logo"
-                    style="width: 100%; height: 80%; cursor: pointer;" ;alt="Logotipo">
+                    style="width: 100%; height: 100%; cursor: pointer;" ;alt="Logotipo">
             </span>
         </div>
     </div>
@@ -57,44 +57,59 @@
 
 
         <!-- columna inicio -->
-        <div style="height: 100vh;" class="col-3 d-flex flex-column justify-content-between" id="columna_1">
+        <div style="" class="col-12 col-md-3 d-flex flex-column justify-content-between" id="columna_1">
 
-            <div class="d-flex flex-column align-items-center mt-5">
+            <div class="d-flex flex-row flex-md-column align-items-center justify-content-center mt-5 gap-md-3 gap-5">
 
-                <a class="btn rounded-pill btn_estilo" id="btn_conocenos" href="inicio.html">CONÓCENOS</a>
-                <div class="mt-5 ms-5" id="detalle_contenido">
-                    <a href="inicio.html#servicios" class="sin_decoracion">
-                        <p class="semiboldi_menu">Servicios</p>
-                    </a>
-                    <a href="inicio.html#socios_comerciales" class="sin_decoracion">
-                        <p class="semiboldi_menu">Socios</br>
-                            Comerciales</p>
-                    </a>
+                <div class="d-flex flex-column justify-content-between">
+
+                    <a class="btn rounded-pill btn_estilo " id="btn_conocenos" href="inicio.html">CONÓCENOS</a>
+
+                    <div class="mt-5 ms-5" id="detalle_contenido">
+                        <a href="inicio.html#servicios" class="sin_decoracion">
+                            <p class="semiboldi_menu">Servicios</p>
+                        </a>
+                        <a href="inicio.html#socios_comerciales" class="sin_decoracion">
+                            <p class="semiboldi_menu">Socios</br>
+                                Comerciales</p>
+                        </a>
+                    </div>
                 </div>
 
-                <a class="btn rounded-pill btn_estilo" id="btn_prestamo" href="inicio.html#linea_prestamo">
-                    <p class="mb-0 rounded-pill btn_estilo">
-                        ¿CÓMO USAR</br>
-                        MI ARRENDAMIENTO</br>
-                        O PRÉSTAMO?
-                    </p>
-                </a>
-                <div class="mt-5 ms-5" id="detalle_contenido_1">
-                    <a href="inicio.html#pertenecer_kuchati" class="sin_decoracion">
-                        <p class="semiboldi_menu">¿Cómo <br />pertenecer<br />a Küchati</p>
+                <div class="d-flex flex-column justify-content-between">
+
+                    <a class="btn rounded-pill btn_estilo" id="btn_prestamo" href="inicio.html#linea_prestamo">
+                        <p class="mb-0 rounded-pill btn_estilo">
+                            ¿CÓMO USAR</br>
+                            MI ARRENDAMIENTO</br>
+                            O PRÉSTAMO?
+                        </p>
                     </a>
+                    <div class="mt-5 ms-5" id="detalle_contenido_1">
+                        <a href="inicio.html#pertenecer_kuchati" class="sin_decoracion">
+                            <p class="semiboldi_menu">¿Cómo <br />pertenecer<br />a Küchati</p>
+                        </a>
+                    </div>
                 </div>
+
             </div>
-            <p style="width: 2ch ; text-shadow: 0 0 5px black;" class="rotar_etiqueta ms-5 ps-5" id="etiqueta_inicio">INICIO</p>
+            
+            <p style="width: 2ch ; text-shadow: 0 0 5px black;" class="d-none d-md-inline rotar_etiqueta ms-5 ps-5" id="etiqueta_inicio">
+                INICIO</p>
+            
+            <p style="width: 2ch ; text-shadow: 0 0 5px black;" class="d-md-none d-inline alinear_etiqueta ms-5 ps-5" id="etiqueta_inicio">
+                INICIO</p>
         </div>
 
 
         <!-- columna nosotros-->
-        <div style="height: 100vh;" class="col-3 d-flex flex-column justify-content-between" id="columna_2">
+        <div style="" class="col-12 col-md-3 d-flex flex-column justify-content-between" id="columna_2">
+            
+            <div class="d-flex flex-column mt-5 align-items-md-center px-5">
 
-            <div class="d-flex flex-column align-items-center mt-5">
-
-                <a class="btn rounded-pill btn_estilo" id="btn_acercaDe" href="nosotros.html">ACERCA DE KÜCHATI</a>
+                <div class="d-flex justify-content-end justify-content-md-center">
+                    <a class="btn rounded-pill btn_estilo" id="btn_acercaDe" href="nosotros.html">ACERCA DE KÜCHATI</a>
+                </div>
 
                 <div class="mt-5 ms-5" id="detalle_contenido_2">
                     <a href="nosotros.html" class="sin_decoracion">
@@ -109,15 +124,19 @@
                 </div>
             </div>
 
-            <p style="width: 2ch; text-shadow: 0 0 5px black;" class="rotar_etiqueta ms-5 ps-5" id="etiqueta_nosotros">NOSOTROS</p>
+            <p style="width: 2ch; text-shadow: 0 0 5px black;" class="d-none d-md-inline rotar_etiqueta ms-5 ps-5" id="etiqueta_nosotros">
+                NOSOTROS</p>
+            <p style="width: 2ch; text-shadow: 0 0 5px black;" class="d-md-none d-inline alinear_etiqueta ms-5 ps-5" id="etiqueta_nosotros">
+                NOSOTROS</p>
         </div>
 
         <!-- columna tramite-->
-        <div style="height: 100vh;" class="col-3 d-flex flex-column justify-content-between" id="columna_3">
+        <div style="" class="col-12 col-md-3 d-flex flex-column justify-content-between" id="columna_3">
 
-            <div class="d-flex flex-column align-items-center mt-5">
-
-                <a class="btn rounded-pill btn_estilo" id="btn_procesos" href="proceso.html">PROCESOS</a>
+            <div class="d-flex flex-column align-items-md-center mt-5 px-5">
+                <div class="d-flex justify-content-end justify-content-md-center">
+                    <a class="btn rounded-pill btn_estilo" id="btn_procesos" href="proceso.html">PROCESOS</a>
+                </div>
 
                 <div class="mt-5 ms-5" id="detalle_contenido_3">
                     <a href="proceso.html" class="sin_decoracion">
@@ -129,13 +148,17 @@
                 </div>
             </div>
 
-            <p style="width: 2ch; text-shadow: 0 0 5px black;" class="rotar_etiqueta ms-5 ps-5" id="etiqueta_tramite">TRÁMITE</p>
+            <p style="width: 2ch; text-shadow: 0 0 5px black;" class="d-none d-md-inline rotar_etiqueta ms-5 ps-5" id="etiqueta_tramite">
+                TRÁMITE</p>
+            <p style="width: 2ch; text-shadow: 0 0 5px black;" class="d-md-none d-inline alinear_etiqueta ms-5 ps-5" id="etiqueta_tramite">
+                TRÁMITE</p>
         </div>
 
         <!-- columna servicios-->
-        <div style="height: 100vh;" class="col-3 d-flex flex-column justify-content-between" id="columna_4">
+        <div style="" class="col-12 col-md-3 d-flex flex-column justify-content-between" id="columna_4">
 
             <div class="d-flex flex-column align-items-center mt-5">
+
 
                 <a class="btn rounded-pill btn_estilo" id="btn_servicios" href="arrendamiento.html">
 
@@ -161,8 +184,11 @@
                 </div>
             </div>
 
-            <p style="width: 2ch; border: 5px;border-color: black; text-shadow: 0 0 5px black;" class="rotar_etiqueta ms-5 ps-5"
-                id="etiqueta_servicios">
+            <p style="width: 2ch; text-shadow: 0 0 5px black;"
+                class="d-none d-md-inline rotar_etiqueta ms-5 ps-5" id="etiqueta_servicios">
+                SERVICIOS</p>
+            <p style="width: 2ch; text-shadow: 0 0 5px black;"
+                class="d-md-none d-inline alinear_etiqueta ms-5 ps-5" id="etiqueta_servicios">
                 SERVICIOS</p>
         </div>
     </div>
@@ -170,19 +196,19 @@
 
     <!-- linea contacto -->
     <div class="row bg-dark shadow p-3" id="linea_contacto">
-        <div class="col-2" id="columna_contacto">
+        <div class="col-3 col-md-3" id="columna_contacto">
             <br>
             <a href="contactanos.html" class="sin_decoracion">
                 <p>CONTACTO</p>
 
             </a>
         </div>
-        <div class="col-10" id="columna_solicita">
+        <div class="col-9 col-md-9" id="columna_solicita">
             <br>
             <a href="contactanos.html" class="sin_decoracion">
 
                 <p id="guiones" style="text-align: left;">solicita tu préstamo</p>
-                
+
             </a>
         </div>
     </div>
@@ -190,7 +216,7 @@
     <!-- carousel -->
     <div class="row">
 
-        <div id="demo" class=" col-12 carousel slide bg-light px-5 pt-3" data-ride="carousel">
+        <div id="demo" class="carousel slide bg-light px-5 pt-3" data-ride="carousel">
 
             <!-- Indicators -->
             <ul class="carousel-indicators">
@@ -221,8 +247,8 @@
                     <h3 id="">¿ES PARA MI?</h3>
                     <br><br>
                     <div class="row">
-                        <div class="d-flex justify-content-between px-5">
-                            <div class="ms-5">
+                        <div class="d-flex justify-content-center gap-5">
+                            <div class="">
                                 <p>Busco capital de<br> trabajo sin el<br>riesgo de<br>descapitalización.</p>
                             </div>
                             <div>
@@ -231,7 +257,7 @@
                             <div>
                                 <p>No me quiero<br>preocupar por la<br>depreciacíon.</p>
                             </div>
-                            <div class="me-5">
+                            <div class="">
                                 <p>Quiero pagar una<br>mensualidad por<br>un equipo y que sea<br>100% deducible.</p>
                             </div>
                         </div>
@@ -253,26 +279,27 @@
     <!-- linea redes -->
     <div class="row shadow bg-dark p-3">
         <div class="d-flex justify-content-center mt-3" align="center">
-            <div>
+            <!-- <div>
                 <a style="color: white;" href="https://www.instagram.com">
                     <i class="fa-brands fa-instagram fa-2x"></i>
                 </a>
-            </div>
-            <div class="ms-3">
+            </div> -->
+            <div class="me-3">
                 <a style="color: white" href="https://www.whatsapp.com/business/?lang=en">
                     <i class="fa-brands fa-whatsapp fa-2x"></i>
                 </a>
             </div>
-            <div class="ms-3">
+            <div class="">
                 <a style="color: white" href="https://facebook.com/">
                     <i class="fa-brands fa-facebook-f fa-2x"></i>
                 </a>
             </div>
         </div>
-        
+
         <div class="d-flex justify-content-left mt-3" style="align-items: center">
             <a href="AVISO DE PRIVACIDAD KUCHATI.pdf" class="sin_decoracion">
-                <p style="letter-spacing: 1px; font-family: 'ACaslonPro-SemiBoldItalic' !important;" id="aviso">Aviso y privacidad</p>
+                <p style="letter-spacing: 1px; font-family: 'ACaslonPro-SemiBoldItalic' !important;" id="aviso">Aviso y
+                    privacidad</p>
             </a>
         </div>
         <hr style="color: white;">
