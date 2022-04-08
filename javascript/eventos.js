@@ -25,10 +25,10 @@ var itm_inicio = document.getElementById("itm_inicio");
 var itm_nosotros = document.getElementById("itm_nosotros");
 var itm_tramite = document.getElementById("itm_tramite");
 var itm_servicios = document.getElementById("itm_servicios");
-var itm_contacto = document.getElementById("itm_contacto")
-console.log(itm_servicios)
+var itm_contacto = document.getElementById("itm_contacto");
 
 itm_logo.addEventListener("click", function () { 
+    console.log("clicked");
     window.location.href = "index.html"
 })
 
@@ -41,7 +41,6 @@ itm_nosotros.addEventListener("click", function(){
 })
 
 itm_tramite.addEventListener("click",function(){
-    console.log("clicked")
     window.location.href = "proceso.html"
 })
 
@@ -55,7 +54,6 @@ itm_servicios.addEventListener("click", function(){
 
 /* animacion pagina nosotros */
 var numero = 0;
-console.log(numero);
 if (document.getElementById("numeroVar") != null) { 
 
     var reloj = window.setInterval(function () {

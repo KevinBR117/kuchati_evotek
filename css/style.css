@@ -6,7 +6,7 @@
     align-items: center;
     /*vertical*/
     z-index: 1;
-    position: fixed;
+    position: absolute;
 }
 
 #logo_superpuesto>img {
@@ -159,7 +159,7 @@
 }
 
 #columna_1 {
-    background-image: url("/kuchati/images/pexels-alena-darmel-7641842.jpg");
+    background-image: url("images/pexels-alena-darmel-7641842.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -198,7 +198,7 @@
 
 #btn_prestamo {
     width: 35vh;
-    height: auto !important;
+    height: auto;
 }
 
 #btn_prestamo p {
@@ -223,7 +223,7 @@
 }
 
 #columna_2 {
-    background-image: url("/kuchati/images/kitchen.jpeg");
+    background-image: url("images/kitchen.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -263,7 +263,7 @@
 }
 
 #columna_3 {
-    background-image: url("/kuchati/images/pexels-tyler-tornberg-1587274.jpg");
+    background-image: url("images/pexels-tyler-tornberg-1587274.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -303,7 +303,7 @@
 }
 
 #columna_4 {
-    background-image: url("/kuchati/images/pexels-fauxels-3184465.jpg");
+    background-image: url("images/pexels-fauxels-3184465.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
