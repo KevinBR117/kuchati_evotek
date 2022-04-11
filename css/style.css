@@ -243,7 +243,11 @@
         font-size: medium !important;
     }
     #cont_1 p{
-|
+        font-size: medium !important;
+    }
+    #cont_2 img{
+            height: 10% !important;
+            width: 10% !important;
     }
 
 
