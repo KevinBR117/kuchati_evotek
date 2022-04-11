@@ -91,7 +91,7 @@
     background-color: #919082 !important;
     border-color: #919082 !important;
     z-index: -1 !important;
-    font-size: large !important;
+    font-size: large ;
     font-family: 'MyriadPro-SemiBold' !important;
 }
 
@@ -192,17 +192,68 @@
 }
 
 #btn_conocenos {
-    width: 25vh;
+    width: auto;
     height: auto;
 }
 
 #btn_prestamo {
-    width: 35vh;
+    width: auto;
     height: auto;
 }
+/* If the screen size is 601px wide or less, set the font-size of <div> to 80px */
+@media screen and (max-width: 576px) {
+    #btn_conocenos{
+        font-size: medium !important;
+    }
+    #btn_prestamo p {
+      font-size: medium !important;
+    }
+    #btn_acercaDe{
+        font-size: medium !important;
+    }
+    #btn_procesos{
+        font-size: medium !important;
+    }
+    #btn_servicios{
+        font-size: medium !important;
+    }
+    #detalle_contenido_4 a{
+        font-size:medium !important;
+    }
+    #columna_contacto p{
+        font-size: small !important ;
+        letter-spacing: 1px !important;
+    }
+    #columna_solicita p{
+        font-size: smaller !important;
+        letter-spacing: 1px !important;
+    }
+    #carrousel h3{
+        font-size: small !important;
+    }
+    #carrousel p{
+        font-size: small !important;
+        line-height: 15px;
+        
+    }
+    .carousel-item {
+        height: 150px !important;
+    }
+    #aviso{
+        font-size: medium !important;
+    }
+    #cont_1 p{
+|
+    }
+
+
+
+}
+
+
 
 #btn_prestamo p {
-    font-size: large !important;
+    font-size: large;
     line-height: 25px !important;
 }
 
