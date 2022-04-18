@@ -242,19 +242,36 @@
     #aviso{
         font-size: medium !important;
     }
+    #cont_01 img{
+        height: auto !important;
+        width: 70% !important;
+    }
     #cont_1 p{
-        font-size: medium !important;
+        font-size: small !important;
     }
     #cont_2 img{
-            height: 10% !important;
-            width: 10% !important;
+            transform: translateY(-30%);
+            height: auto !important;
+            width: 70% !important;
     }
 
+    #img_01{
+        height: 70% !important;
+    }
+    #cont_01 img {
+        width: 50% !important;
+        height: 60% !important;
+    }
+    #img_02{
+        height: 35% !important;
+    }
+
+    #img_03{
+        height: 50% !important;
+    }
 
 
 }
-
-
 
 #btn_prestamo p {
     font-size: large;
@@ -455,7 +472,7 @@ h3 p {
     cursor: pointer;
 }
 #guiones::before {
-    content: "─────── ";
+    content: "───── ";
     font-size: medium;
     letter-spacing: 0px;
 }
