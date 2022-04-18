@@ -200,78 +200,6 @@
     width: auto;
     height: auto;
 }
-/* If the screen size is 601px wide or less, set the font-size of <div> to 80px */
-@media screen and (max-width: 576px) {
-    #btn_conocenos{
-        font-size: medium !important;
-    }
-    #btn_prestamo p {
-      font-size: medium !important;
-    }
-    #btn_acercaDe{
-        font-size: medium !important;
-    }
-    #btn_procesos{
-        font-size: medium !important;
-    }
-    #btn_servicios{
-        font-size: medium !important;
-    }
-    #detalle_contenido_4 a{
-        font-size:medium !important;
-    }
-    #columna_contacto p{
-        font-size: small !important ;
-        letter-spacing: 1px !important;
-    }
-    #columna_solicita p{
-        font-size: smaller !important;
-        letter-spacing: 1px !important;
-    }
-    #carrousel h3{
-        font-size: small !important;
-    }
-    #carrousel p{
-        font-size: small !important;
-        line-height: 15px;
-        
-    }
-    .carousel-item {
-        height: 150px !important;
-    }
-    #aviso{
-        font-size: medium !important;
-    }
-    #cont_01 img{
-        height: auto !important;
-        width: 70% !important;
-    }
-    #cont_1 p{
-        font-size: small !important;
-    }
-    #cont_2 img{
-            transform: translateY(-30%);
-            height: auto !important;
-            width: 70% !important;
-    }
-
-    #img_01{
-        height: 70% !important;
-    }
-    #cont_01 img {
-        width: 50% !important;
-        height: 60% !important;
-    }
-    #img_02{
-        height: 35% !important;
-    }
-
-    #img_03{
-        height: 50% !important;
-    }
-
-
-}
 
 #btn_prestamo p {
     font-size: large;
@@ -614,11 +542,12 @@ h3 p {
 /* pagina inicio */
 #linea_prestamo {
     background-image: url("icons/prestamo/prestamo.png");
-    width: auto;
+ /*    width: auto; */
+    object-fit: cover ;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    background-position: 100%, 100%;
+/*     background-position: 100%, 100%; */
     height: 100px;
 }
 
@@ -807,3 +736,149 @@ progress{
     background: #919082 !important;
     border-radius: 9px;
 } */
+    /* If the screen size is 601px wide or less, set the font-size of <div> to 80px */
+    @media screen and (max-width: 576px) {
+        #btn_conocenos{
+            font-size: medium !important;
+        }
+        #btn_prestamo p {
+          font-size: medium !important;
+        }
+        #btn_acercaDe{
+            font-size: medium !important;
+        }
+        #btn_procesos{
+            font-size: medium !important;
+        }
+        #btn_servicios{
+            font-size: medium !important;
+        }
+        #detalle_contenido_4 a{
+            font-size:medium !important;
+        }
+        #columna_contacto p{
+            font-size: small !important ;
+            letter-spacing: 1px !important;
+        }
+        #columna_solicita p{
+            font-size: smaller !important;
+            letter-spacing: 1px !important;
+        }
+        #carrousel h3{
+            font-size: small !important;
+        }
+        #carrousel p{
+            font-size: small !important;
+            line-height: 15px;
+            
+        }
+        .carousel-item {
+            height: 150px !important;
+        }
+        #aviso{
+            font-size: medium !important;
+        }
+        #cont_001{
+            width: 70% !important;
+            height: 100% !important;
+        }
+        #cont_1 p{
+            font-size: small !important;
+        }
+        #cont_2 img{
+                transform: translateY(-30%);
+                height: auto !important;
+                width: 70% !important;
+        }
+        /* ajustes pagina inicio */
+        #img_01{
+            height: 70% !important;
+        }
+        #cont_01 img {
+            width: 50% !important;
+            height: 60% !important;
+        }
+        #img_02{
+            height: 35% !important;
+        }
+    
+        #img_03{
+            height: 50% !important;
+        }
+        .clase_seccion{
+            font-size: large !important;
+        }
+        .clase_subtitulo{
+            font-size: large !important;
+        }
+        .clase_texto{
+            font-size: medium !important;
+        }
+        .clase_sub{
+            font-size: 12px !important;
+        }
+        #img_mexicana{
+            /* height: 40% !important; */
+            height: 40% !important;
+            width: 30% !important;
+            transform: translate(25%,-25%) !important; 
+        }
+        #img_servicio{
+            width: 100% !important;
+            height: 100% !important;
+        }
+        #cont_socios{
+            height: 40vh !important;
+        }
+        #linea_prestamo {
+            height: auto !important;
+        }
+        #contenedor_1{
+            transform: translate(15%,10%) !important;
+        }
+        #contenedor_1 img{
+            width: 7vh !important;
+            height: 7vh !important;
+        }
+        #caja{
+            box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px !important;
+        }
+        #img_next_level{
+            width: 100% !important;
+            height: 100% !important;
+        }
+        #img_next_level_1{
+            width: 50vh !important;
+        }
+
+        #linea_comenzar {
+            height: 70vh !important;
+        }
+
+        #listo{
+           font-size: 50px !important;
+        }
+        #empezar{
+            font-size: 50px !important;
+        }
+        #signo{
+            font-size: 50px !important;
+        }
+        #aqui{
+            width: 40% !important;
+            height: 45% !important;
+            transform: translate(5%,0%) !important; 
+        }
+        #logo_listo{
+            width: 50% !important;
+            height: auto !important;
+        }
+        #bar{
+            height: 75% !important;
+        }
+        #btn_logo{
+            width: 80% !important;
+        }
+        
+
+}  
