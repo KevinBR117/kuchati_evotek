@@ -817,6 +817,12 @@ progress{
         .clase_sub{
             font-size: 12px !important;
         }
+        .clase_14{
+            font-size: 14px !important;
+        }
+        #clase_texto_2{
+            font-size: 12px !important;
+        }
         #img_mexicana{
             /* height: 40% !important; */
             height: 40% !important;
@@ -878,6 +884,12 @@ progress{
         }
         #btn_logo{
             width: 80% !important;
+        }
+
+        #img_nosotoros{
+            height: 100% !important;
+            width: 90% !important;
+            transform: translate(0%,0%) !important;
         }
         
 
