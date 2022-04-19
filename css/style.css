@@ -820,6 +820,12 @@ progress{
         .clase_14{
             font-size: 14px !important;
         }
+        .clase_10{
+            font-size: 10px !important;
+        }
+        .clase_5{
+            font-size: 5px !important;
+        }
         #clase_texto_2{
             font-size: 12px !important;
         }
@@ -860,7 +866,6 @@ progress{
         #linea_comenzar {
             height: 70vh !important;
         }
-
         #listo{
            font-size: 50px !important;
         }
@@ -885,12 +890,66 @@ progress{
         #btn_logo{
             width: 80% !important;
         }
-
+        /* pagina nosotros */
         #img_nosotoros{
             height: 100% !important;
             width: 90% !important;
             transform: translate(0%,0%) !important;
         }
-        
+        #linea_valores{
+            height: 250vh !important;
+        }
+        /* #caja_valores{
+            height: 100% !important;
+        } */
+        #caja_valores img{
+            width: 100% !important;
+            height: 100% !important;
+        }
+        #caja_valores div{
+            width: 70% !important;
+            height: 50% !important;
+        }
+        #img_drew{
+            width: 40% !important;
+        }
+        #img_drew_firma{
+            width: 90% !important;
+        }
+        #img_drew_circulo{
+            margin-left: 0% !important;
+        }
+        #img_don_artemio{
+            width: 70% !important;
+        }
+        #artemio_firma{
+            width: 70% !important;
+        }
+        #img_artemio_circulo{
+            height: 200% !important;
+            width: 80% !important;
+            border-radius: 50% !important;
+            margin-right: 0% !important;
+        }
 
+        /* pagina proceso */
+        .label_estilo{
+            font-size: large !important;
+        }
+        #img_programar_reunion{
+            transform: translate(-20%,-25%) !important;
+        }
+        #body_servicio{
+            width: 100% !important;
+        }
+        .contenedor_caja{
+            height: 25rem !important;
+        }
+        .box_1{
+            height: 50% !important;
+            width: 50% !important;
+           
+            
+        
+        }
 }  
