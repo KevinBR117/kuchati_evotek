@@ -897,7 +897,7 @@ progress{
             transform: translate(0%,0%) !important;
         }
         #linea_valores{
-            height: 250vh !important;
+            height: 200vh !important;
         }
         /* #caja_valores{
             height: 100% !important;
@@ -939,17 +939,40 @@ progress{
         #img_programar_reunion{
             transform: translate(-20%,-25%) !important;
         }
-        #body_servicio{
+        /* #body_servicio{
+            width: 50vh !important;
+        } */
+       /*  .contenedor_caja{
+            height: 25rem !important;
+        } */
+        .box_1{
+            height: 60% !important;
+          /*   width: 50% !important;   */ 
+        }
+        .box_2{
+            height: 60% !important;
+            /* width: 50% !important; */
+        }
+        .box_3{
+            height: 60% !important;
+            /* width: 50% !important; */
+        }
+        .box_4{
+            height: 25vh !important;
             width: 100% !important;
         }
-        .contenedor_caja{
-            height: 25rem !important;
+        /* pagina contactanos */
+        #img_contacto{
+            width: 100% !important;
         }
-        .box_1{
-            height: 50% !important;
-            width: 50% !important;
-           
-            
-        
+        #btn_enviar{
+            width: 30% !important;
+            font-size: large !important;
         }
-}  
+        /* pagina arendamiento */
+        .w40{
+            width: 40vh !important;
+        }
+
+
+    }
