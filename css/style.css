@@ -846,7 +846,7 @@ progress{
             height: auto !important;
         }
         #contenedor_1{
-            transform: translate(15%,10%) !important;
+            transform: translate(15%,0%) !important;
         }
         #contenedor_1 img{
             width: 7vh !important;
@@ -857,10 +857,10 @@ progress{
         }
         #img_next_level{
             width: 100% !important;
-            height: 100% !important;
+           /*  height: 100% !important; */
         }
         #img_next_level_1{
-            width: 50vh !important;
+            width: 100% !important;
         }
 
         #linea_comenzar {
@@ -877,7 +877,7 @@ progress{
         }
         #aqui{
             width: 40% !important;
-            height: 45% !important;
+            height: 50% !important;
             transform: translate(5%,0%) !important; 
         }
         #logo_listo{
@@ -897,16 +897,27 @@ progress{
             transform: translate(0%,0%) !important;
         }
         #linea_valores{
-            height: 200vh !important;
-        }
-        /* #caja_valores{
             height: 100% !important;
+        }
+        #caja_valores{
+            height: 100% !important;
+        }
+        
+      /*   #caja_valores div{
+            width: 70% !important;
+            height: 50% !important;
         } */
-        #caja_valores img{
-            width: 100% !important;
-            height: 100% !important;
+        #valor_1{
+            width: 50% !important;
         }
-        #caja_valores div{
+        #valor_2{
+            width: 50% !important;
+        }
+        #valor_3{
+            width: 80% !important;
+           
+        } 
+        .ajuste_caja{
             width: 70% !important;
             height: 50% !important;
         }
