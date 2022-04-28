@@ -950,6 +950,9 @@ progress{
         #img_programar_reunion{
             transform: translate(-20%,-25%) !important;
         }
+        #img_descargar_1{
+            height: 100% !important;
+        }
         /* #body_servicio{
             width: 50vh !important;
         } */
