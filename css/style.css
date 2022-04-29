@@ -348,12 +348,15 @@
 
 /* parrafos en general */
 p {
-    text-align: center;
+    text-align: center; 
     font-family: 'ACaslonPro-Regular';
     font-size: large;
     color: white;
 }
+#end{
 
+    text-align: end; 
+}
 #columna_contacto>P {
     text-align: center;
     letter-spacing: 3px;
@@ -413,9 +416,13 @@ h3 p {
     font-family: 'ACaslonPro-SemiBoldItalic';
     font-size: x-large;
     color: #919082;
-    align-self: end;
+    /* align-self: end ;   */
     letter-spacing: 2px;
+    /* text-align: end0  */;
 }
+/* .seccion_end{
+    text-align: end ;
+} */
 
 .semiboldi {
     font-size: x-large;
@@ -595,6 +602,15 @@ h3 p {
     background-size: cover;
     
     height: 100vh;
+}
+#valor_1{
+    object-fit: contain;
+}
+#valor_2{
+    object-fit: contain;
+}
+#valor_3{
+    object-fit: contain;
 }
 
 /* pagina arrendamiento */
