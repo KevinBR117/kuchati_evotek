@@ -91,18 +91,18 @@
                         </div>
                     </div>
 
-                    <div class="d-flex flex-column">
+                    <div class="d-flex flex-column mt-2">
                         <label class="label_estilo" for="correo">Correo:</label>
                         <input class="input_estilo" required type="email" name="correo" id="correo"
                             onfocusout="cambiar_progreso(this)">
                     </div>
 
-                    <div class="d-flex flex-column">
+                    <div class="d-flex flex-column mt-2">
                         <label class="label_estilo" for="telefono">Telefono:</label>
                         <input class="input_estilo" required type="tel" name="telefono" id="telefono"
                             onfocusout="cambiar_progreso(this)">
                     </div>
-                    <div class="d-flex flex-column">
+                    <div class="d-flex flex-column mt-2">
                         <label class="label_estilo" for="mensaje">Mensaje:</label>
                         <textarea name="mensaje" id="mensaje" required class="input_estilo" style="height: 80%;"
                             onfocusout="cambiar_progreso(this)">
@@ -167,25 +167,25 @@
 
                     </div>
 
-                    <div class="d-flex flex-column">
+                    <div class="d-flex flex-column mt-2">
                         <label class="label_estilo" for="monto">Monto solicitado:</label>
                         <input class="input_estilo" required type="text" name="monto" id="monto"
                             onfocusout="cambiar_progreso(this)">
                     </div>
 
-                    <div class="d-flex flex-column">
+                    <div class="d-flex flex-column mt-2">
                         <label class="label_estilo" for="equipo">Equipo solicitado:</label>
                         <input class="input_estilo" required type="text" name="equipo" id="equipo"
                             onfocusout="cambiar_progreso(this)">
                     </div>
-                    <div class="d-flex flex-column">
+                    <div class="d-flex flex-column mt-2">
                         <label class="label_estilo" for="rfc">RFC:</label>
                         <input class="input_estilo" required type="text" name="rfc" id="rfc"
                             onfocusout="cambiar_progreso(this)">
                     </div>
-                    <div class="d-flex flex-column">
+                    <div class="d-flex flex-column mt-3">
                         <label class="label_estilo" for="contacto">Medio de contacto de preferencia:</label>
-                        <div class="d-flex align-items-start justify-content-between">
+                        <!-- <div class="d-sm-none d-sm-flex align-items-start justify-content-between">
                             <div>
                                 <div class="d-flex align-items-center gap-1">
                                     <input type="checkbox" name="llamada" id="llamada">
@@ -202,6 +202,23 @@
                                 <input type="checkbox" name="correo" id="correo">
                                 <label class="label_checkbox" for="">Correo</label>
                             </div>
+                        </div> -->
+                        <div class="d-flex justify-content-center justify-content-sm-between px-sm-5 px-2 gap-5">
+                            <div class="d-flex align-items-center gap-1">
+                                <input type="checkbox" name="llamada" id="llamada">
+                                <label class="label_checkbox" for="">Llamada</label>
+                            </div>
+
+                            <div class="d-flex align-items-center gap-1">
+                                <input type="checkbox" name="mensaje" id="mensaje">
+                                <label class="label_checkbox" for="">Mensaje</label>
+                            </div>
+                            <div class="d-flex align-items-center gap-1">
+                                <input type="checkbox" name="correo" id="correo">
+                                <label class="label_checkbox" for="">Correo</label>
+                            </div>
+
+
                         </div>
                     </div>
 
@@ -229,13 +246,17 @@
 
             <div class="row mt-5 mb-1">
                 <div class="col-md-12 d-flex justify-content-center p-3">
-                    <!-- <input
+                    <input
+                        style="margin: 1rem 0; font-size: 1.0rem; padding: 0.5rem 5rem; background-color: #919082 !important;
+                    font-family: 'ACaslonPro-Regular' !important; letter-spacing: 0.5rem; border-radius: 1.2rem; border-color: transparent; color:white;
+                     width: 35%; height: 50%; align-self: center !important;text-align: center !important;text-align: center !important;"
+                        class="d-flex d-md-none justify-content-center text-uppercase" type="submit" value="Enviar">
+                    <!-- <input class="" style="height: auto; width: 25%; font-size: x-large;" id="btn_enviar" type="submit" value="Enviar">
+ -->                <input
                         style="margin: 1rem 0; font-size: 1.5rem; padding: 0.5rem 5rem; background-color: #919082 !important;
                     font-family: 'ACaslonPro-Regular' !important; letter-spacing: 0.5rem; border-radius: 1.2rem; border-color: transparent; color:white;
                      width: 35%; height: 50%; align-self: center !important;text-align: center !important;text-align: center !important;"
-                        class="text-uppercase" type="submit" value="Enviar"> -->
-                    <input type="submit" value="Enviar" class="btn rounded-pill btn_estilo" style="height: auto; width: 25%; font-size: x-large;" id="btn_enviar">
-
+                        class="d-md-flex d-none justify-content-center text-uppercase" type="submit" value="Enviar">
 
                 </div>
             </div>
@@ -251,8 +272,8 @@
                 </a>
             </div>
             <div class="">
-                <a style="color: white" href="https://facebook.com/">
-                    <i class="fa-brands fa-facebook-f fa-2x"></i>
+                <a style="color: white;" href="https://instagram.com/kuchati.mx?igshid=NjY2NjE5MzQ=">
+                    <i class="fa-brands fa-instagram fa-2x"></i>
                 </a>
             </div>
         </div>
@@ -276,8 +297,8 @@
                     </a>
                 </div>
                 <div class="">
-                    <a style="color: white" href="https://facebook.com/">
-                        <i class="fa-brands fa-facebook-f "></i>
+                    <a style="color: white;" href="https://instagram.com/kuchati.mx?igshid=NjY2NjE5MzQ=">
+                        <i class="fa-brands fa-instagram"></i>
                     </a>
                 </div>
             </div>

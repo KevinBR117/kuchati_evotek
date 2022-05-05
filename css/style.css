@@ -98,20 +98,23 @@
 .input_estilo {
     width: 100%;
     border-radius: 1rem;
+    /* border-color: #919082; */
     border-color: transparent;
+    /* -webkit-box-shadow: 0px 0px 17px 1px rgba(170, 170, 169, 0.856); */
     -webkit-box-shadow: 0px 0px 17px 1px rgba(0, 0, 0, 0.49);
+    -webkit-appearance: none;
+
     box-shadow: 0px 0px 17px 1px rgba(0, 0, 0, 0.49);
     margin-top: 0.5rem;
     padding-left: 1rem;
 }
-
 .label_estilo {
     font-family: 'ACaslonPro-SemiBold';
     color: #000
 }
 
 .label_checkbox {
-    font-family: 'ACaslonPro-SemiBoldItalic';
+    font-family: 'ACaslonPro-SemiBoldIFtalic';
     color: #919082;
     
 }
@@ -753,7 +756,7 @@ progress{
     border-radius: 9px;
 } */
     /* If the screen size is 601px wide or less, set the font-size of <div> to 80px */
-    @media screen and (max-width: 576px) {
+    @media screen and (max-width: 801px) {
         #btn_conocenos{
             font-size: medium !important;
         }
@@ -819,7 +822,7 @@ progress{
         }
     
         #img_03{
-            height: 50% !important;
+            height: 53% !important;
         }
         .clase_seccion{
             font-size: large !important;
@@ -853,7 +856,7 @@ progress{
         }
         #img_servicio{
             width: 100% !important;
-            height: 100% !important;
+            height: 40% !important;
         }
         #cont_socios{
             height: 40vh !important;
@@ -862,7 +865,7 @@ progress{
             height: auto !important;
         }
         #contenedor_1{
-            transform: translate(15%,0%) !important;
+            transform: translate(15%,5%) !important;
         }
         #contenedor_1 img{
             width: 7vh !important;
@@ -877,6 +880,7 @@ progress{
         }
         #img_next_level_1{
             width: 100% !important;
+            height: 80% !important;
         }
 
         #linea_comenzar {
@@ -891,14 +895,21 @@ progress{
         #signo{
             font-size: 50px !important;
         }
+        #texto_1{
+            transform: translateX(5%) !important;
+        }
         #aqui{
             width: 40% !important;
             height: 50% !important;
-            transform: translate(5%,0%) !important; 
+            transform: translateX(10%) !important;
+            /* transform: translate(20%,0%) !important;  */
         }
+     /*    #img_aqui_1{
+            transform: translate(20%, 0%) !important;
+        } */
         #logo_listo{
-            width: 50% !important;
-            height: auto !important;
+            /* width: 50% !important;
+            height: auto !important; */
         }
         #bar{
             height: 75% !important;
@@ -906,6 +917,8 @@ progress{
         #btn_logo{
             width: 80% !important;
         }
+        
+        
         /* pagina nosotros */
         #img_nosotoros{
             height: 100% !important;
@@ -966,8 +979,12 @@ progress{
         #img_programar_reunion{
             transform: translate(-20%,-25%) !important;
         }
+        #link_img{
+            width: 30% !important;
+        }
         #img_descargar_1{
-            height: 100% !important;
+            width: 100% !important;
+            height: 25% !important;
         }
         /* #body_servicio{
             width: 50vh !important;
@@ -976,20 +993,20 @@ progress{
             height: 25rem !important;
         } */
         .box_1{
-            height: 60% !important;
+           /*  height: 60% !important; */
           /*   width: 50% !important;   */ 
         }
         .box_2{
-            height: 60% !important;
+            /* height: 60% !important; */
             /* width: 50% !important; */
         }
         .box_3{
-            height: 60% !important;
+           /*  height: 60% !important; */
             /* width: 50% !important; */
         }
         .box_4{
-            height: 25vh !important;
-            width: 100% !important;
+            /* height: 25vh !important;
+            width: 100% !important; */
         }
         /* pagina contactanos */
         #img_contacto{
@@ -1003,6 +1020,8 @@ progress{
         .w40{
             width: 40vh !important;
         }
-
+        #div_1{
+            height: 45vh !important;
+        }
 
     }
