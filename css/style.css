@@ -579,8 +579,8 @@ h3 p {
 } */
 #linea_comenzar {
     background-color: #919082;
-    width: auto;
-    height: 100vh;
+    /* width: auto;
+    height: 110vh; */
 }
 
 /* Arrendamiento */
