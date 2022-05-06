@@ -884,7 +884,7 @@ progress{
         }
 
         #linea_comenzar {
-            height: 70vh !important;
+            /* height: 70vh !important; */
         }
         #listo{
            font-size: 50px !important;
