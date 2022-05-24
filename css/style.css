@@ -908,8 +908,8 @@ progress{
             transform: translate(20%, 0%) !important;
         } */
         #logo_listo{
-            /* width: 50% !important;
-            height: auto !important; */
+            max-width: 65% !important;
+            /* height: auto !important; */
         }
         #bar{
             height: 75% !important;
@@ -980,7 +980,7 @@ progress{
             transform: translate(-20%,-25%) !important;
         }
         #link_img{
-            width: 30% !important;
+            /* height: 100% !important; */
         }
         #img_descargar_1{
             width: 100% !important;
