@@ -13,7 +13,11 @@
     width: 65%;
     height: 40%;
 }
-
+.logo_barra_nav{
+    width: 20%;
+    height: auto;
+    cursor: pointer;
+}
 #sidebar {
     z-index: 2;
     position: fixed;
